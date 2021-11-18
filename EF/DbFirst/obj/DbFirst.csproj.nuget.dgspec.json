@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\dotnetProjects\\Learning_Heaven\\EF\\DbFirst\\DbFirst.csproj": {}
+    "d:\\dotnetProjects\\Learning_Heaven\\EF\\DbFirst\\DbFirst.csproj": {}
   },
   "projects": {
-    "D:\\dotnetProjects\\Learning_Heaven\\EF\\DbFirst\\DbFirst.csproj": {
+    "d:\\dotnetProjects\\Learning_Heaven\\EF\\DbFirst\\DbFirst.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\dotnetProjects\\Learning_Heaven\\EF\\DbFirst\\DbFirst.csproj",
+        "projectUniqueName": "d:\\dotnetProjects\\Learning_Heaven\\EF\\DbFirst\\DbFirst.csproj",
         "projectName": "DbFirst",
-        "projectPath": "D:\\dotnetProjects\\Learning_Heaven\\EF\\DbFirst\\DbFirst.csproj",
+        "projectPath": "d:\\dotnetProjects\\Learning_Heaven\\EF\\DbFirst\\DbFirst.csproj",
         "packagesPath": "C:\\Users\\Akif\\.nuget\\packages\\",
-        "outputPath": "D:\\dotnetProjects\\Learning_Heaven\\EF\\DbFirst\\obj\\",
+        "outputPath": "d:\\dotnetProjects\\Learning_Heaven\\EF\\DbFirst\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Akif\\AppData\\Roaming\\NuGet\\NuGet.Config",
