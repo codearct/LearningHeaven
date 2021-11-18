@@ -1,0 +1,16 @@
+D:\dotnetProjects\Learning_Heaven\Algorithm\hackerRank\Strings\algoString_04\bin\Debug\net5.0\algoString_04.exe
+D:\dotnetProjects\Learning_Heaven\Algorithm\hackerRank\Strings\algoString_04\bin\Debug\net5.0\algoString_04.deps.json
+D:\dotnetProjects\Learning_Heaven\Algorithm\hackerRank\Strings\algoString_04\bin\Debug\net5.0\algoString_04.runtimeconfig.json
+D:\dotnetProjects\Learning_Heaven\Algorithm\hackerRank\Strings\algoString_04\bin\Debug\net5.0\algoString_04.runtimeconfig.dev.json
+D:\dotnetProjects\Learning_Heaven\Algorithm\hackerRank\Strings\algoString_04\bin\Debug\net5.0\algoString_04.dll
+D:\dotnetProjects\Learning_Heaven\Algorithm\hackerRank\Strings\algoString_04\bin\Debug\net5.0\ref\algoString_04.dll
+D:\dotnetProjects\Learning_Heaven\Algorithm\hackerRank\Strings\algoString_04\bin\Debug\net5.0\algoString_04.pdb
+D:\dotnetProjects\Learning_Heaven\Algorithm\hackerRank\Strings\algoString_04\obj\Debug\net5.0\algoString_04.csproj.AssemblyReference.cache
+D:\dotnetProjects\Learning_Heaven\Algorithm\hackerRank\Strings\algoString_04\obj\Debug\net5.0\algoString_04.GeneratedMSBuildEditorConfig.editorconfig
+D:\dotnetProjects\Learning_Heaven\Algorithm\hackerRank\Strings\algoString_04\obj\Debug\net5.0\algoString_04.AssemblyInfoInputs.cache
+D:\dotnetProjects\Learning_Heaven\Algorithm\hackerRank\Strings\algoString_04\obj\Debug\net5.0\algoString_04.AssemblyInfo.cs
+D:\dotnetProjects\Learning_Heaven\Algorithm\hackerRank\Strings\algoString_04\obj\Debug\net5.0\algoString_04.csproj.CoreCompileInputs.cache
+D:\dotnetProjects\Learning_Heaven\Algorithm\hackerRank\Strings\algoString_04\obj\Debug\net5.0\algoString_04.dll
+D:\dotnetProjects\Learning_Heaven\Algorithm\hackerRank\Strings\algoString_04\obj\Debug\net5.0\ref\algoString_04.dll
+D:\dotnetProjects\Learning_Heaven\Algorithm\hackerRank\Strings\algoString_04\obj\Debug\net5.0\algoString_04.pdb
+D:\dotnetProjects\Learning_Heaven\Algorithm\hackerRank\Strings\algoString_04\obj\Debug\net5.0\algoString_04.genruntimeconfig.cache
