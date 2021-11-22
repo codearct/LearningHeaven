@@ -29,6 +29,7 @@ namespace Zyn.Module.BusinessObjects
         public override void AfterConstruction()
         {
             base.AfterConstruction();
+            Tarih = DateTime.Now;
             // Place your initialization code here (https://documentation.devexpress.com/eXpressAppFramework/CustomDocument112834.aspx).
         }
 

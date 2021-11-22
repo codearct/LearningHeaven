@@ -1,5 +1,25 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Application Title="Zyn">
+  <NavigationItems>
+    <Items>
+      <Item Id="Default" Caption="Stok İşlemleri">
+        <Items>
+          <Item Id="Adresler_ListView" Removed="True" />
+          <Item Id="Kisiler_ListView" Removed="True" />
+          <Item Id="Notlar_ListView" Removed="True" />
+          <Item Id="Telefonlar_ListView" Removed="True" />
+        </Items>
+      </Item>
+      <Item Id="Kişiler" IsNewNode="True">
+        <Items IsNewNode="True">
+          <Item Id="Adresler_ListView" ViewId="Adresler_ListView" ObjectKey="" IsNewNode="True" />
+          <Item Id="Kisiler_ListView" ViewId="Kisiler_ListView" ObjectKey="" IsNewNode="True" />
+          <Item Id="Notlar_ListView" ViewId="Notlar_ListView" ObjectKey="" IsNewNode="True" />
+          <Item Id="Telefonlar_ListView" ViewId="Telefonlar_ListView" ObjectKey="" IsNewNode="True" />
+        </Items>
+      </Item>
+    </Items>
+  </NavigationItems>
   <Options>
     <LayoutManagerOptions RequiredFieldMark="*" />
   </Options>

@@ -16,7 +16,7 @@ namespace Zyn.Module.BusinessObjects
 {
     [DefaultClassOptions]
     //[ImageName("BO_Contact")]
-    [DefaultProperty("Urun")]
+    [DefaultProperty("Tanim")]
     //[DefaultListViewOptions(MasterDetailMode.ListViewOnly, false, NewItemRowPosition.None)]
     //[Persistent("DatabaseTableName")]
     // Specify more UI options using a declarative approach (https://documentation.devexpress.com/#eXpressAppFramework/CustomDocument112701).
@@ -53,6 +53,8 @@ namespace Zyn.Module.BusinessObjects
             set => SetPropertyValue(nameof(Urun), ref urun, value);
         }
 
+        [PersistentAlias("Concat([Kod],' - ',[Urun])")]
+        public string Tanim => (string)EvaluateAlias("Tanim");
         public double AlisKDV
         {
             get => alisKDV;

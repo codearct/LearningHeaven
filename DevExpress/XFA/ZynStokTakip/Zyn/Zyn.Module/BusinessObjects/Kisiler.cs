@@ -29,13 +29,26 @@ namespace Zyn.Module.BusinessObjects
         public override void AfterConstruction()
         {
             base.AfterConstruction();
+            XPCollection<Kisiler> collection = new XPCollection<Kisiler>(Session);
+            if (collection.Count >= 0)
+            {
+                Kod = (collection.Count + 1).ToString();
+            }
             // Place your initialization code here (https://documentation.devexpress.com/eXpressAppFramework/CustomDocument112834.aspx).
         }
 
+        string kod;
         DateTime dogumTarihi;
         string soyadi;
         string adi;
 
+        
+        [Size(SizeAttribute.DefaultStringMappingFieldSize)]
+        public string Kod
+        {
+            get => kod;
+            set => SetPropertyValue(nameof(Kod), ref kod, value);
+        }
         [Size(SizeAttribute.DefaultStringMappingFieldSize)]
         public string Adi
         {
