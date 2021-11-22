@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application Title="Zyn">
+  <Options>
+    <LayoutManagerOptions RequiredFieldMark="*" />
+  </Options>
+  <SchemaModules>
+    <SchemaModule Name="SystemModule" Version="20.1.7.0" IsNewNode="True" />
+  </SchemaModules>
+  <Views>
+    <ListView Id="Kisiler_ListView" MasterDetailMode="ListViewAndDetailView" />
+    <ListView Id="Notlar_ListView" MasterDetailMode="ListViewOnly" />
+  </Views>
+</Application>
