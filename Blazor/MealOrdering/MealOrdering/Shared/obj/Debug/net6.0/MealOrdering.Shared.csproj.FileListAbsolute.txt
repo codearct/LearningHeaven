@@ -1,0 +1,12 @@
+D:\dotnetProjects\Learning_Heaven\Blazor\MealOrdering\MealOrdering\Shared\bin\Debug\net6.0\MealOrdering.Shared.deps.json
+D:\dotnetProjects\Learning_Heaven\Blazor\MealOrdering\MealOrdering\Shared\bin\Debug\net6.0\MealOrdering.Shared.dll
+D:\dotnetProjects\Learning_Heaven\Blazor\MealOrdering\MealOrdering\Shared\bin\Debug\net6.0\MealOrdering.Shared.pdb
+D:\dotnetProjects\Learning_Heaven\Blazor\MealOrdering\MealOrdering\Shared\obj\Debug\net6.0\MealOrdering.Shared.csproj.AssemblyReference.cache
+D:\dotnetProjects\Learning_Heaven\Blazor\MealOrdering\MealOrdering\Shared\obj\Debug\net6.0\MealOrdering.Shared.GeneratedMSBuildEditorConfig.editorconfig
+D:\dotnetProjects\Learning_Heaven\Blazor\MealOrdering\MealOrdering\Shared\obj\Debug\net6.0\MealOrdering.Shared.AssemblyInfoInputs.cache
+D:\dotnetProjects\Learning_Heaven\Blazor\MealOrdering\MealOrdering\Shared\obj\Debug\net6.0\MealOrdering.Shared.AssemblyInfo.cs
+D:\dotnetProjects\Learning_Heaven\Blazor\MealOrdering\MealOrdering\Shared\obj\Debug\net6.0\MealOrdering.Shared.csproj.CoreCompileInputs.cache
+D:\dotnetProjects\Learning_Heaven\Blazor\MealOrdering\MealOrdering\Shared\obj\Debug\net6.0\MealOrdering.Shared.dll
+D:\dotnetProjects\Learning_Heaven\Blazor\MealOrdering\MealOrdering\Shared\obj\Debug\net6.0\refint\MealOrdering.Shared.dll
+D:\dotnetProjects\Learning_Heaven\Blazor\MealOrdering\MealOrdering\Shared\obj\Debug\net6.0\MealOrdering.Shared.pdb
+D:\dotnetProjects\Learning_Heaven\Blazor\MealOrdering\MealOrdering\Shared\obj\Debug\net6.0\ref\MealOrdering.Shared.dll
