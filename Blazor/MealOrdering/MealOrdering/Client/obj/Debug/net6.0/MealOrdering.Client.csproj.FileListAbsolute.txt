@@ -825,3 +825,7 @@ D:\dotnetProjects\Learning_Heaven\Blazor\MealOrdering\MealOrdering\Client\obj\De
 D:\dotnetProjects\Learning_Heaven\Blazor\MealOrdering\MealOrdering\Client\obj\Debug\net6.0\refint\MealOrdering.Client.dll
 D:\dotnetProjects\Learning_Heaven\Blazor\MealOrdering\MealOrdering\Client\obj\Debug\net6.0\MealOrdering.Client.pdb
 D:\dotnetProjects\Learning_Heaven\Blazor\MealOrdering\MealOrdering\Client\obj\Debug\net6.0\ref\MealOrdering.Client.dll
+D:\dotnetProjects\Learning_Heaven\Blazor\MealOrdering\MealOrdering\Client\bin\Debug\net6.0\wwwroot\_framework\Blazored.Modal.dll
+D:\dotnetProjects\Learning_Heaven\Blazor\MealOrdering\MealOrdering\Client\bin\Debug\net6.0\wwwroot\_framework\Blazored.Modal.dll.gz
+D:\dotnetProjects\Learning_Heaven\Blazor\MealOrdering\MealOrdering\Client\bin\Debug\net6.0\Blazored.Modal.dll
+D:\dotnetProjects\Learning_Heaven\Blazor\MealOrdering\MealOrdering\Client\obj\Debug\net6.0\build-gz\Ec9nDa66.gz

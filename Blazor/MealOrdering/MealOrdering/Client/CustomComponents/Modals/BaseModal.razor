@@ -1,0 +1,32 @@
+﻿
+
+@code {
+
+    [Parameter]
+    public string Message { get; set; }
+
+    [Parameter]
+    public string OkText { get; set; }
+
+    [Parameter]
+    public string CancelText { get; set; }
+
+    [Parameter]
+    public string YesText { get; set; }
+
+    [Parameter]
+    public string NoText { get; set; }
+
+    [CascadingParameter]
+    BlazoredModalInstance ModalInstance { get; set; }
+
+    protected async Task ConfirmClicked()
+    {
+        await ModalInstance.CloseAsync(ModalResult.Ok<string>(""));  
+    }
+
+    protected async Task CancelClicked()
+    {
+        await ModalInstance.CloseAsync(ModalResult.Cancel());  
+    }
+}

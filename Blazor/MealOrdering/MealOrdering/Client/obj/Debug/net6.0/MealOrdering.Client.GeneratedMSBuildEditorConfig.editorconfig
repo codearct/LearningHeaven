@@ -34,6 +34,18 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Q3VzdG9tQ29tcG9uZW50c1xCdXR0b25zXEVkaXRCdXR0b24ucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/dotnetProjects/Learning_Heaven/Blazor/MealOrdering/MealOrdering/Client/CustomComponents/Modals/BaseModal.razor]
+build_metadata.AdditionalFiles.TargetPath = Q3VzdG9tQ29tcG9uZW50c1xNb2RhbHNcQmFzZU1vZGFsLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/dotnetProjects/Learning_Heaven/Blazor/MealOrdering/MealOrdering/Client/CustomComponents/Modals/ConfirmStatus.razor]
+build_metadata.AdditionalFiles.TargetPath = Q3VzdG9tQ29tcG9uZW50c1xNb2RhbHNcQ29uZmlybVN0YXR1cy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/dotnetProjects/Learning_Heaven/Blazor/MealOrdering/MealOrdering/Client/CustomComponents/Modals/ShowMessage.razor]
+build_metadata.AdditionalFiles.TargetPath = Q3VzdG9tQ29tcG9uZW50c1xNb2RhbHNcU2hvd01lc3NhZ2UucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/dotnetProjects/Learning_Heaven/Blazor/MealOrdering/MealOrdering/Client/Pages/ButtonTest.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQnV0dG9uVGVzdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 

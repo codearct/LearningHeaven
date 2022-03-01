@@ -61,7 +61,7 @@
       "url": "icon-512.png"
     },
     {
-      "hash": "sha256-SLCATN31v0xThjGJwVgNFfllqrmw9l2CyZuaU5hzAgU=",
+      "hash": "sha256-qqncMQfn1lrpR0+fx9X5kndf5OQ\/1DLznt0AQYKptu8=",
       "url": "index.html"
     },
     {
@@ -71,6 +71,10 @@
     {
       "hash": "sha256-mtbbY51uellisGqm2FUW8eeNkiAGumS7GlHi4ZJ2mRw=",
       "url": "MealOrdering.Client.styles.css"
+    },
+    {
+      "hash": "sha256-yoXX75RsqCVb+q2v0ZS7Hd6lW+OeSPHHPyJBk\/AyYMg=",
+      "url": "_framework\/Blazored.Modal.dll"
     },
     {
       "hash": "sha256-1MwhDUDzh+JE9dgZxlgMF470nBqLsvGAAgAGfn3n8CI=",
@@ -857,19 +861,19 @@
       "url": "_framework\/icudt_no_CJK.dat"
     },
     {
-      "hash": "sha256-Ow7YIsfc0KrMTehSB8VAvsa7kFbZPMfMgh\/hEYv9rrY=",
+      "hash": "sha256-jZB7sN9tHLo1eig5\/zT733R9LpY29O7fNBT6PdqgM5g=",
       "url": "_framework\/MealOrdering.Shared.dll"
     },
     {
-      "hash": "sha256-aTH4JJfU8\/7m0pNbeVTkpUrnk6um7bu8GtBWUlZGj80=",
+      "hash": "sha256-Q+PzsLPpLPhmVyE6KWInfsTPfvfzH60qGdKGGHFyjMQ=",
       "url": "_framework\/MealOrdering.Shared.pdb"
     },
     {
-      "hash": "sha256-3jdaiCnma\/oG0VuFY\/VOVj5u9LQCnRY63AmhkWq3zSU=",
+      "hash": "sha256-mmKI+wTcA5X126SrQfVvIMaMEYHFXFYMrKejpslb2pk=",
       "url": "_framework\/MealOrdering.Client.dll"
     },
     {
-      "hash": "sha256-ZGJRO+kEt14B3U3QDu+ildcOWNp++HBKj2723tSvn2M=",
+      "hash": "sha256-RMqFdxKMW7BodtyQRm45L9FxfoKaQiIRfIqus7d3qeI=",
       "url": "_framework\/MealOrdering.Client.pdb"
     },
     {
@@ -877,9 +881,17 @@
       "url": "_framework\/blazor.webassembly.js"
     },
     {
-      "hash": "sha256-53EjnzZZTJM3gC79YR0I50K71fnKSrmS9UHUcrGcH6Q=",
+      "hash": "sha256-djqhLOkvZ5bENDiVRIjoyu0RzJjurXZ7DS47CBOA65s=",
       "url": "_framework\/blazor.boot.json"
+    },
+    {
+      "hash": "sha256-hCgyKYB2Fp3cS2OYfOsDmtYLbOA\/5\/0gZ\/fo0fXNVuo=",
+      "url": "_content\/Blazored.Modal\/blazored-modal.css"
+    },
+    {
+      "hash": "sha256-hzc3VjBPQWszPOZ2BiO4+DGMfVN\/c2qCVdzHWAbhe2E=",
+      "url": "_content\/Blazored.Modal\/blazored.modal.js"
     }
   ],
-  "version": "a7byhKEF"
+  "version": "bWYQGDGH"
 };

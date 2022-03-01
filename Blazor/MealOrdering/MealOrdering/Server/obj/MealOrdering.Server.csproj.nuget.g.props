@@ -12,6 +12,9 @@
   <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
     <SourceRoot Include="C:\Users\Akif\.nuget\packages\" />
   </ItemGroup>
+  <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Import Project="$(NuGetPackageRoot)blazored.modal\6.0.1\buildTransitive\Blazored.Modal.props" Condition="Exists('$(NuGetPackageRoot)blazored.modal\6.0.1\buildTransitive\Blazored.Modal.props')" />
+  </ImportGroup>
   <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
     <PkgMicrosoft_AspNetCore_Components_WebAssembly_Server Condition=" '$(PkgMicrosoft_AspNetCore_Components_WebAssembly_Server)' == '' ">C:\Users\Akif\.nuget\packages\microsoft.aspnetcore.components.webassembly.server\6.0.2</PkgMicrosoft_AspNetCore_Components_WebAssembly_Server>
   </PropertyGroup>

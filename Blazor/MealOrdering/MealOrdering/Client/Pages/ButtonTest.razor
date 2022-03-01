@@ -1,12 +1,39 @@
 ﻿@page "/buttontest"
 
-<h3>İçerik buttontest.razor page inden geliyor</h3>
+
+<h3>@title</h3>
 <div class="container">
     <div class="btn-toolbar">
-        <EditButton/>
+        <div >
+            <EditButton Caption="Show Message" OnClick = "showTitle" Color="primary" />
+            <EditButton Caption ="Confirm Status Message" OnClick = "showConfirmation" Color="danger" />
+        </div>
+        
     </div>
 </div>
 
 @code {
 
+    [CascadingParameter]
+    public IModalService Modal { get; set; }
+
+    [Inject]
+    ModalManager modalManager { get; set; }
+
+    private string title = "";
+
+    private async Task showTitle()
+    {
+        await modalManager.ShowMessageAsync("Show Message Title", "Record deleted!",3000);
+        //ModalParameters parameters = new();
+        //parameters.Add("Message", "Kullanmak istediğin yerde(ButtonTest page) verilen bir mesajdır");
+        //Modal.Show<ShowMessage>("Counter Pop-Up Page",parameters);
+    }
+
+    private async Task showConfirmation()
+    {
+        var result = await modalManager.ConfirmStatusAsync("Confirmation", "Are you sure that it will be deleted?");
+        if (result) title = "Yes just clicked";
+        else title = "No just clicked";
+    }
 }

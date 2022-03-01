@@ -44,3 +44,4 @@ D:\dotnetProjects\Learning_Heaven\Blazor\MealOrdering\MealOrdering\Server\obj\De
 D:\dotnetProjects\Learning_Heaven\Blazor\MealOrdering\MealOrdering\Server\obj\Debug\net6.0\MealOrdering.Server.pdb
 D:\dotnetProjects\Learning_Heaven\Blazor\MealOrdering\MealOrdering\Server\obj\Debug\net6.0\MealOrdering.Server.genruntimeconfig.cache
 D:\dotnetProjects\Learning_Heaven\Blazor\MealOrdering\MealOrdering\Server\obj\Debug\net6.0\ref\MealOrdering.Server.dll
+D:\dotnetProjects\Learning_Heaven\Blazor\MealOrdering\MealOrdering\Server\bin\Debug\net6.0\Blazored.Modal.dll

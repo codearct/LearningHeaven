@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "t3APH/wn5zMxbjeZsNXMa1COFxWHTMBsgVCt2/AhlTk=",
+  "Hash": "1LWfMY3ajp0B1tpWTgGQA0lri8bH7MhoRVAEKQu0GuE=",
   "Source": "MealOrdering.Client",
   "BasePath": "/",
   "Mode": "Root",
@@ -16,6 +16,40 @@
     }
   ],
   "Assets": [
+    {
+      "Identity": "C:\\Users\\Akif\\.nuget\\packages\\blazored.modal\\6.0.1\\staticwebassets\\blazored.modal.js",
+      "SourceId": "Blazored.Modal",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\Akif\\.nuget\\packages\\blazored.modal\\6.0.1\\staticwebassets\\",
+      "BasePath": "_content/Blazored.Modal",
+      "RelativePath": "blazored.modal.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Akif\\.nuget\\packages\\blazored.modal\\6.0.1\\staticwebassets\\blazored.modal.js"
+    },
+    {
+      "Identity": "C:\\Users\\Akif\\.nuget\\packages\\blazored.modal\\6.0.1\\staticwebassets\\blazored-modal.css",
+      "SourceId": "Blazored.Modal",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\Akif\\.nuget\\packages\\blazored.modal\\6.0.1\\staticwebassets\\",
+      "BasePath": "_content/Blazored.Modal",
+      "RelativePath": "blazored-modal.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Akif\\.nuget\\packages\\blazored.modal\\6.0.1\\staticwebassets\\blazored-modal.css"
+    },
     {
       "Identity": "D:\\dotnetProjects\\Learning_Heaven\\Blazor\\MealOrdering\\MealOrdering\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\blazor.boot.json",
       "SourceId": "MealOrdering.Client",
@@ -49,6 +83,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Akif\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly\\6.0.2\\build\\net6.0\\blazor.webassembly.js"
+    },
+    {
+      "Identity": "D:\\dotnetProjects\\Learning_Heaven\\Blazor\\MealOrdering\\MealOrdering\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Blazored.Modal.dll",
+      "SourceId": "MealOrdering.Client",
+      "SourceType": "Computed",
+      "ContentRoot": "D:\\dotnetProjects\\Learning_Heaven\\Blazor\\MealOrdering\\MealOrdering\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Blazored.Modal.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\Akif\\.nuget\\packages\\blazored.modal\\6.0.1\\lib\\netstandard2.1\\Blazored.Modal.dll"
     },
     {
       "Identity": "D:\\dotnetProjects\\Learning_Heaven\\Blazor\\MealOrdering\\MealOrdering\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\dotnet.6.0.2.76kg066ovf.js",
@@ -4520,6 +4571,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "D:\\dotnetProjects\\Learning_Heaven\\Blazor\\MealOrdering\\MealOrdering\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Formats.Asn1.dll"
+    },
+    {
+      "Identity": "D:\\dotnetProjects\\Learning_Heaven\\Blazor\\MealOrdering\\MealOrdering\\Client\\obj\\Debug\\net6.0\\build-gz\\Ec9nDa66.gz",
+      "SourceId": "MealOrdering.Client",
+      "SourceType": "Computed",
+      "ContentRoot": "D:\\dotnetProjects\\Learning_Heaven\\Blazor\\MealOrdering\\MealOrdering\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Blazored.Modal.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "D:\\dotnetProjects\\Learning_Heaven\\Blazor\\MealOrdering\\MealOrdering\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Blazored.Modal.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "D:\\dotnetProjects\\Learning_Heaven\\Blazor\\MealOrdering\\MealOrdering\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Blazored.Modal.dll"
     },
     {
       "Identity": "D:\\dotnetProjects\\Learning_Heaven\\Blazor\\MealOrdering\\MealOrdering\\Client\\obj\\Debug\\net6.0\\build-gz\\ekaCh+Sy.gz",

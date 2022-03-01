@@ -1,0 +1,27 @@
+﻿
+@inherits BaseModal
+
+<div class="card-body">
+    <p>@Message</p>
+</div>
+
+<div class="row justify-content-center">
+    <div class="d-flex">
+        <div class="mx-auto">
+            <button class="btn btn-light" @onclick="ConfirmClicked">
+                @OkText 
+            </button>
+        </div>
+    </div>
+</div>
+
+@code {
+
+    public override async Task SetParametersAsync(ParameterView parameters)
+    {
+        Message = parameters.GetValueOrDefault<string>("Message","No Message Found!");
+        OkText = parameters.GetValueOrDefault<string>("OkText","OK");
+        await base.SetParametersAsync(parameters);
+     }
+
+}
