@@ -1,0 +1,147 @@
+﻿@page "/"
+
+<PageTitle>Index</PageTitle>
+
+<h1>Hello, world!</h1>
+
+Welcome to your new app.
+
+<br /><br />
+
+<p>
+    Name: @person.Name
+</p
+
+<p>
+    Name: @person.Amount.ToString("c")
+</p>
+
+<p>
+    <input type="number" 
+            @bind-value="person.Amount"
+            @bind-value:event="oninput"/>
+</p>
+
+<p>
+    <label>
+        <input type="checkbox" @bind-value="person.IsActive" />
+        &nbsp;Is Active
+    </label>
+    
+    <br />
+    Is Active: @person.IsActive
+</p>
+
+<p>
+    <label>
+        <input type="radio" 
+               value="1" 
+               name="group"
+               checked="@(selectedGroup==1)"
+               @onclick=@(()=>selectedGroup=1)/>
+        1
+    </label>
+
+    <label>
+        <input type="radio" 
+               value="2" 
+               name="group"
+               checked="@(selectedGroup==2)"
+               @onclick=@(()=>selectedGroup=2)/>
+        2
+    </label>
+    <br />
+    Selected Group: @selectedGroup
+</p>
+
+<p>
+    <select @bind="selectedLocId">
+        <option value="0"></option>
+        @foreach (var loc in person.Locations)
+        {
+            <option value=@loc.Id >@loc.City</option>  
+        }
+    </select>
+</p>
+
+<p>
+    <ul>
+        @foreach (var loc in person.Locations)
+        {
+            <li>@loc.City,@loc.ProvState/@loc.Country</li> 
+        }
+    </ul>
+</p>
+<p>
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">Id</th>
+                <th scope="col">City</th>
+                <th scope="col">ProvState</th>
+                <th scope="col">Country</th>
+           </tr>
+        </thead>
+        <tbody>               
+        @foreach (var loc in person.Locations)
+        {
+            <tr >
+                <th scope="row">@loc.Id</th>
+                <td><input class="form-control"
+                            type="text" 
+                            @bind-value=@loc.City
+                            @bind-value:event="oninput"/></td>
+                <td><input class="form-control"
+                            type="text" 
+                            @bind-value=@loc.ProvState
+                            @bind-value:event="oninput"/></td>
+                <td><input class="form-control"
+                            type="text" 
+                            @bind-value=@loc.Country
+                            @bind-value:event="oninput"/></td>
+            </tr>
+        }
+        </tbody>
+    </table>
+</p>
+
+@code{
+    SalesPerson person = null;
+    int selectedGroup = 0;
+    int selectedLocId = 0;
+
+    protected override void OnInitialized()
+    {
+        base.OnInitialized();
+
+        
+        person = new SalesPerson
+            {
+                Name = "Akif",
+                Amount = 15000,
+                IsActive = true,
+                Locations = new List<Adress>
+                {
+                    new Adress{Id=1,City="Bursa",ProvState="Mudanya",Country="Turkey"},
+                    new Adress{Id=2,City="Afyonkarahisar",ProvState="Merkez",Country="Turkey"}
+                }
+            };
+    }
+
+    #region ViewModel
+    class SalesPerson
+    {
+        public string Name { get; set; }
+        public double Amount { get; set; }
+        public bool IsActive { get; set; }
+        public List<Adress> Locations { get; set; }
+    }
+    class Adress
+    {
+        public int Id { get; set; }
+        public string City { get; set; }
+        public string ProvState { get; set; }
+        public string Country { get; set; }
+    }
+    #endregion
+}
