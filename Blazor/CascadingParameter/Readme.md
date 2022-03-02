@@ -3,7 +3,7 @@
 - You have complex components tree which contains several levels of component
 - You want to pass a parameter value from the first level to last level
 - You can use to cascade a value from whichever level downward to the lower level component so you don't need to cascade one by one
-![Cascading Parameter](Img/Cascading.png)
+![Cascading Parameter](https://github.com/codearct/LearningHeaven/blob/master/Blazor/CascadingParameter/Img/Cascading.PNG)
 - You can use multiple cascading parameters(nested)
 - Avoid using cascading parameter too much because of performance issue 
 - Parent component:
