@@ -5,12 +5,12 @@
   1. Display information
     - Calls as one way data binding
  
-    ![one way binding](https://github.com/codearct/LearningHeaven/blob/master/Blazor/DataBinding/Img/oneWayBinding.PNG)
+    ![one way binding](Img/oneWayBinding.PNG)
 
   2. Manipulate information 
     - Calls as two way data binding
     
-    ![two way binding](https://github.com/codearct/LearningHeaven/blob/master/Blazor/DataBinding/Img/twoWayBinding.PNG)
+    ![two way binding](Img/twoWayBinding.PNG)
 
 - Input
   - checkbox
