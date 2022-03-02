@@ -1,0 +1,17 @@
+﻿
+<div class="ms-4">
+    <h3 style="color:@Color">
+        SubComponent2
+    </h3> 
+    Count: @CascadingValue
+</div>
+
+@code {
+
+    [CascadingParameter(Name = "Counter")]
+    public int CascadingValue { get; set; }
+
+    [CascadingParameter(Name = "TitleColor")]
+    public string Color { get; set; }
+
+}
