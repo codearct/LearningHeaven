@@ -1,0 +1,24 @@
+﻿
+<div class="border">   
+    <h3>Child Component</h3>
+    <button class="btn btn-primary" @onclick="IncrementCount">Click me</button>
+</div>
+
+
+@code {
+
+    [Parameter]
+    public EventCallback<int> SetChildCurrentCount { get; set; }
+
+    [Parameter]
+    public Action<int> SetActionCount { get; set; }
+
+    private int childCurrentCount = 0;
+
+    private void IncrementCount()
+    {
+        childCurrentCount++;
+        //SetChildCurrentCount.InvokeAsync(childCurrentCount);
+        SetActionCount.Invoke(childCurrentCount);
+    }
+}

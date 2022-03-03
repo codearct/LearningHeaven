@@ -1,0 +1,22 @@
+﻿@page "/counter"
+
+<PageTitle>ParentComponent</PageTitle>
+<div class="border border-primary">
+    <h1>ParentComponent</h1>
+    Count: @parentCurrentCount
+    <br />
+    <br />  
+    @*<ChildComponent SetChildCurrentCount="SetParentCurrentCount"/>*@<!--for EventCallback-->
+    <ChildComponent SetActionCount="SetParentCurrentCount"/> <!--for delegate-->
+</div>
+
+@code {
+    private int parentCurrentCount;
+
+    private void SetParentCurrentCount(int childCurrentCount)
+    {
+        parentCurrentCount = childCurrentCount;
+        StateHasChanged();//when use delegate
+    }
+
+}
