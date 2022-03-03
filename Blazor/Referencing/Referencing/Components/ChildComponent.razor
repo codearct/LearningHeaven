@@ -1,0 +1,34 @@
+﻿@if (display)
+{
+    <div class="modal is-active">
+      <div class="modal-background"></div>
+      <div class="modal-card">
+        <header class="modal-card-head">
+          <p class="modal-card-title">Modal title</p>
+          <button class="delete" aria-label="close" @onclick="Cancel"></button>
+        </header>
+        <section class="modal-card-body">
+          <!-- Content ... -->
+        </section>
+        <footer class="modal-card-foot">
+          <button class="button" @onclick="Cancel">Cancel</button>
+        </footer>
+      </div>
+    </div> 
+}
+
+
+@code {
+    private bool display=false;
+    public void Show()
+    {
+        this.display = true;
+        StateHasChanged();
+    }
+    public void Cancel()
+    {
+        this.display = false;
+        StateHasChanged();
+    }
+
+}

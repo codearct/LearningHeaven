@@ -1,0 +1,28 @@
+﻿@page "/counter"
+
+<PageTitle>Counter</PageTitle>
+
+<h1>Counter</h1>
+
+<p role="status">Current count: @currentCount</p>
+
+<button class="btn btn-primary" @onclick="IncrementCount">Click me</button>
+<br />
+<br />
+<button class="btn btn-outline-secondary" @onclick=@(()=> child.Show())>
+    Show Child Component
+</button>
+<br />
+<br />
+<ChildComponent @ref="child"/>
+
+@code {
+    public ChildComponent child;
+
+    private int currentCount = 0;
+
+    private void IncrementCount()
+    {
+        currentCount++;
+    }
+}
