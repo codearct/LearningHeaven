@@ -1,0 +1,52 @@
+﻿@page "/authors"
+
+<h3>Authors</h3>
+<br />
+<br />
+
+<AutoGridComponent Items="authors"/>
+
+@code {
+
+    private List<Author> authors;
+    protected override void OnInitialized()
+    {
+        base.OnInitialized();
+        authors = new();
+        authors.AddRange(new Author[3]
+        {
+            new Author
+            {
+                Id = 1,
+                Name = "Eric",
+                Surname = "Ries",
+                BirthDate = new DateTime(1978, 9, 22)
+            },
+            new Author
+            {
+                Id = 2,
+                Name = "Charlotte Perkins",
+                Surname = "Gilman",
+                BirthDate = new DateTime(1860, 7, 3)
+            },
+            new Author
+            {
+                Id = 3,
+                Name = "Frank",
+                Surname = "Herbert",
+                BirthDate = new DateTime(1920, 10, 8)
+            }   
+        }
+            
+        );
+    }
+
+    public class Author
+    {
+        public int Id { get; set; }
+        public string Name { get; set; }
+        public String Surname { get; set; }
+        public DateTime BirthDate { get; set; }
+    }
+
+}
