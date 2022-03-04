@@ -1,0 +1,22 @@
+﻿
+<div class="field is-horizontal">
+  <div class="field-label is-normal">
+    <label class="label">@Label</label>
+  </div>
+  <div class="field-body">
+    <div class="field">
+      <p class="control">
+        @Control
+      </p>
+    </div>
+  </div>
+</div>
+
+@code {
+    [Parameter]
+    public string Label { get; set; }
+
+    [Parameter]
+    public RenderFragment Control { get; set; }
+
+}
