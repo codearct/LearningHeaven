@@ -1,0 +1,104 @@
+﻿@page "/"
+
+<PageTitle>Index</PageTitle>
+
+<RepeaterComponent @ref="repeater" Items="books">
+    <Header>
+        <h2>Books</h2>
+    </Header>
+    <Row Context="book">
+        <div>
+            <b>@book.Title</b>
+            &nbsp;
+            <button class="btn btn-secondary" @onclick="@(()=>
+                                                        {
+                                                            EditBook(book);
+                                                        })">Edit</button>
+        </div>
+        <div class="ms-4">Author: @book.Author</div>
+        <div class="ms-4">Genre: @book.Genre</div>
+        <div class="ms-4">Publish Date: @book.PublishDate</div>
+        <div class="ms-4">Page Count: @book.PageCount</div>
+    </Row>
+
+    <EditTemplate Context="currentBook">
+        <div>
+            <text>Book Title:</text>
+            <input class="form-control" 
+                    @bind-value=currentBook.Title/>
+        </div>
+        <div>
+            <text>Author:</text>
+            <input class="form-control" 
+                    @bind-value=currentBook.Author/>
+        </div>
+        <div>
+            <text>Genre:</text>
+            <input class="form-control" 
+                    @bind-value=currentBook.Genre/>
+        </div>
+        <div>
+            <text>Publish Date:</text>
+            <input class="form-control" 
+                    @bind-value=currentBook.PublishDate/>
+        </div>
+        <div>
+            <text>Page Count:</text>
+            <input class="form-control" 
+                    @bind-value=currentBook.PageCount/>
+        </div>
+    </EditTemplate>
+</RepeaterComponent>
+
+@code{
+    private RepeaterComponent<Book> repeater;
+
+    List<Book> books;
+
+    protected override void OnInitialized()
+    {
+        base.OnInitialized();
+        books = new();
+        books.AddRange(new Book[3]
+        {
+            new Book
+            {
+                Title = "Lean Startup",
+                Genre = "Personal Growth",
+                Author = "Eric Ries",
+                PageCount = 200,
+                PublishDate = new DateTime(2001, 06, 12)
+            },
+            new Book
+            {
+                Title = "Herland",
+                Genre = "Science Fiction",
+                Author = "Charlotte Perkins Gilman",
+                PageCount = 250,
+                PublishDate = new DateTime(2010, 05, 23)
+            },
+            new Book
+            {
+                Title = "Dune",
+                Genre = "Romance",
+                Author = "Frank Herbert",
+                PageCount = 540,
+                PublishDate = new DateTime(2001, 12, 21)
+            }
+        });
+    }
+
+    private void EditBook(Book book)
+    {
+        repeater.ItemToEdit = book;   
+    }
+
+    public class Book
+    {
+        public string Title { get; set; }
+        public string Genre { get; set; }
+        public string Author { get; set; }
+        public int PageCount { get; set; }
+        public DateTime PublishDate { get; set; }
+    }
+}
