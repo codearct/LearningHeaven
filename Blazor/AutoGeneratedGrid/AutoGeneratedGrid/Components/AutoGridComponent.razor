@@ -1,22 +1,21 @@
-﻿
-@typeparam TItems
+﻿@typeparam TItems
 
 @using System.Reflection
 
-@if (memberInfo!=null && memberInfo.Length>0)
+@if (memberInfo != null && memberInfo.Length > 0)
 {
     <table class="table @CssClass ">
         <thead>
             <tr>
                 @foreach (var member in memberInfo)
                 {
-                    @if (member.MemberType==MemberTypes.Property
-                    && !ColumnsToExcludeCSV.Contains(member.Name,StringComparison.OrdinalIgnoreCase))
+                    @if (member.MemberType == MemberTypes.Property
+                   && !ColumnsToExcludeCSV.Contains(member.Name, StringComparison.OrdinalIgnoreCase))
                     {
-                         <th>
-                             @member.Name
-                         </th>   
-                    }   
+                        <th>
+                            @member.Name
+                        </th>
+                    }
                 }
             </tr>
         </thead>
@@ -26,18 +25,18 @@
                 <tr>
                     @foreach (var member in memberInfo)
                     {
-                        @if (member.MemberType==MemberTypes.Property
-                             && !ColumnsToExcludeCSV.Contains(member.Name,StringComparison.OrdinalIgnoreCase))
+                        @if (member.MemberType == MemberTypes.Property
+                       && !ColumnsToExcludeCSV.Contains(member.Name, StringComparison.OrdinalIgnoreCase))
                         {
-                             <td>
-                                 @item.GetType().GetProperty(member.Name).GetValue(item)
-                             </td>   
-                        }   
+                            <td>
+                                @item.GetType().GetProperty(member.Name).GetValue(item)
+                            </td>
+                        }
                     }
-                </tr>   
+                </tr>
             }
         </tbody>
-    </table>   
+    </table>
 }
 
 
@@ -48,10 +47,10 @@
     protected override void OnParametersSet()
     {
         base.OnParametersSet();
-        if (Items !=null && Items.Count>0)
+        if (Items != null && Items.Count > 0)
         {
             Type typeofItem = this.Items[0].GetType();
-            memberInfo=typeofItem.GetMembers();
+            memberInfo = typeofItem.GetMembers();
         }
     }
 
