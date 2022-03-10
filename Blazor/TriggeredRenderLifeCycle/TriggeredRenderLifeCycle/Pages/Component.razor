@@ -1,0 +1,35 @@
+﻿<h3>Component</h3>
+
+Counter Value: @Counter
+
+@*<button class="btn btn-primary" @onclick="ClickButton">Child Button</button>
+
+<br />
+<br />
+
+@BodyTemplate*@
+
+@code {
+
+    //[Parameter]
+    //public RenderFragment BodyTemplate { get; set; }
+
+    //[Parameter]
+    public int Counter { get; set; }
+
+    protected override void OnAfterRender(bool firstRender)
+    {
+        base.OnAfterRender(firstRender);
+        Console.WriteLine
+            ($"Child Component - OnAfterRender at {DateTime.Now.ToString("hh:MM:ss.fff")}");
+    }
+
+    public void Refresh()
+    {
+        this.StateHasChanged();
+    }
+    //private void ClickButton()
+    //{
+        
+    //}
+}

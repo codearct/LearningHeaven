@@ -1,0 +1,56 @@
+﻿@page "/counter"
+@using System.Timers
+
+<h1>Counter</h1>
+
+<p>Current count: @currentCount</p>
+
+<button class="btn btn-primary" @onclick="IncrementCount">Click me</button>
+
+<br />
+<br />
+<Component @ref="child">
+    @*<BodyTemplate>
+        <button class="btn btn-primary" @onclick="ClickBodyTemplate">Body Template</button>
+        </BodyTemplate>*@
+</Component>
+
+@code {
+    private Component child;
+
+    private int currentCount = 0;
+    //private Timer timer;
+
+    //protected override void OnInitialized()
+    //{
+    //    base.OnInitialized();
+    //    timer = new Timer(2000);
+    //    timer.Elapsed += OnTimedEvent;
+    //    timer.Enabled = true;
+    //}
+
+    //private void OnTimedEvent(object source,ElapsedEventArgs e)
+    //{
+    //    IncrementCount();
+    //    Console.WriteLine($"Counter value: {this.currentCount}");
+    //}
+
+    private void IncrementCount()
+    {
+        currentCount++;
+        child.Counter = currentCount;
+        child.Refresh();
+    }
+
+    protected override void OnAfterRender(bool firstRender)
+    {
+        base.OnAfterRender(firstRender);
+        Console.WriteLine
+            ($"Counter - OnAfterRender at {DateTime.Now.ToString("hh:MM:ss.fff")}");
+    }
+
+    //private void ClickBodyTemplate()
+    //{
+
+    //}
+}
