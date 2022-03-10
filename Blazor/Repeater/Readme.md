@@ -1,4 +1,4 @@
-#Templated Component-3
+# Templated Component-3
 
 ## Generic RenderFragment
 - Most common usage of this generic type parameter RenderFragment is as repeater
