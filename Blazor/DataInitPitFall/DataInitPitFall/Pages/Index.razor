@@ -1,0 +1,56 @@
+﻿@page "/"
+
+
+<PageTitle>Index</PageTitle>
+
+<h1>Hello, world!</h1>
+
+Welcome to your new app.
+
+<EmployeeDetailComponent Employee=@employee>
+
+</EmployeeDetailComponent>
+
+@code {
+    private Employee employee;
+
+    protected override async Task OnInitializedAsync()
+    {
+        await Task.Run(() =>
+        {
+            System.Threading.Thread.Sleep(5000);
+
+            employee = new Employee
+                {
+                    Name = "Mehmet Akif",
+                    Title = "Software Developer",
+                    Department = "IT"
+                };
+        });
+
+        //System.Threading.Thread.Sleep(5000);
+
+        //employee = new Employee
+        //    {
+        //        Name = "Mehmet Akif",
+        //        Title = "Software Developer",
+        //        Department = "IT"
+        //    };
+        //return base.OnInitializedAsync();
+
+    }
+
+    //protected override void OnInitialized()
+    //{
+    //     base.OnInitialized();
+
+    //    System.Threading.Thread.Sleep(5000);
+
+    //    employee = new Employee
+    //        {
+    //            Name = "Mehmet Akif",
+    //            Title = "Software Developer",
+    //            Department = "IT"
+    //        };  
+    //}
+}
