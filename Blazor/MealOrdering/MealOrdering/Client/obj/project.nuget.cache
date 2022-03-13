@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ilNhLTzDcpxPX9DBtQKwRa9sLFyGaMQNrSQspdJ+sTEB+JgZMV3tuK6N0ELV8/47P9qEoijt+ypM9eZSlD94Rg==",
+  "dgSpecHash": "aVccOtnqeMKh7x1ZqBy5gUsDwQfwKm02/NVV3kh2Oy514EyNuUmdNJaeaLM8pplVQplMuuLkW3DoYIh/slUKtA==",
   "success": true,
-  "projectFilePath": "D:\\dotnetProjects\\Learning_Heaven\\Blazor\\MealOrdering\\MealOrdering\\Client\\MealOrdering.Client.csproj",
+  "projectFilePath": "d:\\dotnetProjects\\Learning_Heaven\\Blazor\\MealOrdering\\MealOrdering\\Client\\MealOrdering.Client.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Akif\\.nuget\\packages\\blazored.modal\\6.0.1\\blazored.modal.6.0.1.nupkg.sha512",
     "C:\\Users\\Akif\\.nuget\\packages\\microsoft.aspnetcore.authorization\\6.0.2\\microsoft.aspnetcore.authorization.6.0.2.nupkg.sha512",
@@ -34,7 +34,7 @@
     "C:\\Users\\Akif\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
     "C:\\Users\\Akif\\.nuget\\packages\\system.text.encodings.web\\6.0.0\\system.text.encodings.web.6.0.0.nupkg.sha512",
     "C:\\Users\\Akif\\.nuget\\packages\\system.text.json\\6.0.0\\system.text.json.6.0.0.nupkg.sha512",
-    "C:\\Users\\Akif\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\6.0.2\\microsoft.netcore.app.runtime.mono.browser-wasm.6.0.2.nupkg.sha512"
+    "C:\\Users\\Akif\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\6.0.3\\microsoft.netcore.app.runtime.mono.browser-wasm.6.0.3.nupkg.sha512"
   ],
   "logs": []
 }
