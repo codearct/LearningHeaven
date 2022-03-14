@@ -1,4 +1,8 @@
+using MealOrdering.Server.Data.Context;
+using MealOrdering.Server.Extensions;
+using MealOrdering.Server.Services;
 using Microsoft.AspNetCore.ResponseCompression;
+using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -7,6 +11,18 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllersWithViews();
 builder.Services.AddRazorPages();
 builder.Services.AddBlazoredModal();
+
+//Database
+builder.Services.AddDbContext<MealOrderingDbContext>(config =>
+{
+    config.UseNpgsql("User ID=postgres;password=admin;Host=localhost;Port=5432;Database=mealordering;SearchPath=public");
+});
+
+//Automappar
+builder.Services.ConfigureMapping();
+
+//Business Services
+builder.Services.AddScoped<IUserService, UserService>();
 
 var app = builder.Build();
 

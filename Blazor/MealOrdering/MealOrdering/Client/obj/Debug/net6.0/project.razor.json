@@ -8,39 +8,6 @@
   "ProjectWorkspaceState": {
     "TagHelpers": [
       {
-        "HashCode": -1229335562,
-        "Kind": "Components.Component",
-        "Name": "MealOrdering.Client.App",
-        "AssemblyName": "MealOrdering.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "App"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "MealOrdering.Client.App"
-        }
-      },
-      {
-        "HashCode": -950613767,
-        "Kind": "Components.Component",
-        "Name": "MealOrdering.Client.App",
-        "AssemblyName": "MealOrdering.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "MealOrdering.Client.App"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "MealOrdering.Client.App",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
         "HashCode": 1063408388,
         "Kind": "Components.Component",
         "Name": "MealOrdering.Client.CustomComponents.Buttons.BaseButton",
@@ -220,189 +187,6 @@
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "MealOrdering.Client.CustomComponents.Buttons.BaseButton",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": 1810487103,
-        "Kind": "Components.Component",
-        "Name": "MealOrdering.Client.CustomComponents.Buttons.ButtonComponent",
-        "AssemblyName": "MealOrdering.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "ButtonComponent"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Caption",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "Caption"
-            }
-          },
-          {
-            "Kind": "Components.Component",
-            "Name": "Color",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "Color"
-            }
-          },
-          {
-            "Kind": "Components.Component",
-            "Name": "Icon",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "Icon"
-            }
-          },
-          {
-            "Kind": "Components.Component",
-            "Name": "ToolTipsStr",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "ToolTipsStr"
-            }
-          },
-          {
-            "Kind": "Components.Component",
-            "Name": "IsSmall",
-            "TypeName": "System.Boolean",
-            "Metadata": {
-              "Common.PropertyName": "IsSmall"
-            }
-          },
-          {
-            "Kind": "Components.Component",
-            "Name": "IsOutline",
-            "TypeName": "System.Boolean",
-            "Metadata": {
-              "Common.PropertyName": "IsOutline"
-            }
-          },
-          {
-            "Kind": "Components.Component",
-            "Name": "IsBussy",
-            "TypeName": "System.Boolean",
-            "Metadata": {
-              "Common.PropertyName": "IsBussy"
-            }
-          },
-          {
-            "Kind": "Components.Component",
-            "Name": "CaptionAtBusy",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "CaptionAtBusy"
-            }
-          },
-          {
-            "Kind": "Components.Component",
-            "Name": "OnClick",
-            "TypeName": "Microsoft.AspNetCore.Components.EventCallback<Microsoft.AspNetCore.Components.Web.MouseEventArgs>",
-            "Metadata": {
-              "Common.PropertyName": "OnClick",
-              "Components.EventCallback": "True"
-            }
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "MealOrdering.Client.CustomComponents.Buttons.ButtonComponent"
-        }
-      },
-      {
-        "HashCode": 1213793369,
-        "Kind": "Components.Component",
-        "Name": "MealOrdering.Client.CustomComponents.Buttons.ButtonComponent",
-        "AssemblyName": "MealOrdering.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "MealOrdering.Client.CustomComponents.Buttons.ButtonComponent"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Caption",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "Caption"
-            }
-          },
-          {
-            "Kind": "Components.Component",
-            "Name": "Color",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "Color"
-            }
-          },
-          {
-            "Kind": "Components.Component",
-            "Name": "Icon",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "Icon"
-            }
-          },
-          {
-            "Kind": "Components.Component",
-            "Name": "ToolTipsStr",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "ToolTipsStr"
-            }
-          },
-          {
-            "Kind": "Components.Component",
-            "Name": "IsSmall",
-            "TypeName": "System.Boolean",
-            "Metadata": {
-              "Common.PropertyName": "IsSmall"
-            }
-          },
-          {
-            "Kind": "Components.Component",
-            "Name": "IsOutline",
-            "TypeName": "System.Boolean",
-            "Metadata": {
-              "Common.PropertyName": "IsOutline"
-            }
-          },
-          {
-            "Kind": "Components.Component",
-            "Name": "IsBussy",
-            "TypeName": "System.Boolean",
-            "Metadata": {
-              "Common.PropertyName": "IsBussy"
-            }
-          },
-          {
-            "Kind": "Components.Component",
-            "Name": "CaptionAtBusy",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "CaptionAtBusy"
-            }
-          },
-          {
-            "Kind": "Components.Component",
-            "Name": "OnClick",
-            "TypeName": "Microsoft.AspNetCore.Components.EventCallback<Microsoft.AspNetCore.Components.Web.MouseEventArgs>",
-            "Metadata": {
-              "Common.PropertyName": "OnClick",
-              "Components.EventCallback": "True"
-            }
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "MealOrdering.Client.CustomComponents.Buttons.ButtonComponent",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -590,236 +374,185 @@
         }
       },
       {
-        "HashCode": 1348629915,
+        "HashCode": 1810487103,
         "Kind": "Components.Component",
-        "Name": "MealOrdering.Client.CustomComponents.Modals.BaseModal",
+        "Name": "MealOrdering.Client.CustomComponents.Buttons.ButtonComponent",
         "AssemblyName": "MealOrdering.Client",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "BaseModal"
+            "TagName": "ButtonComponent"
           }
         ],
         "BoundAttributes": [
           {
             "Kind": "Components.Component",
-            "Name": "Message",
+            "Name": "Caption",
             "TypeName": "System.String",
             "Metadata": {
-              "Common.PropertyName": "Message"
+              "Common.PropertyName": "Caption"
             }
           },
           {
             "Kind": "Components.Component",
-            "Name": "OkText",
+            "Name": "Color",
             "TypeName": "System.String",
             "Metadata": {
-              "Common.PropertyName": "OkText"
+              "Common.PropertyName": "Color"
             }
           },
           {
             "Kind": "Components.Component",
-            "Name": "CancelText",
+            "Name": "Icon",
             "TypeName": "System.String",
             "Metadata": {
-              "Common.PropertyName": "CancelText"
+              "Common.PropertyName": "Icon"
             }
           },
           {
             "Kind": "Components.Component",
-            "Name": "YesText",
+            "Name": "ToolTipsStr",
             "TypeName": "System.String",
             "Metadata": {
-              "Common.PropertyName": "YesText"
+              "Common.PropertyName": "ToolTipsStr"
             }
           },
           {
             "Kind": "Components.Component",
-            "Name": "NoText",
+            "Name": "IsSmall",
+            "TypeName": "System.Boolean",
+            "Metadata": {
+              "Common.PropertyName": "IsSmall"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "IsOutline",
+            "TypeName": "System.Boolean",
+            "Metadata": {
+              "Common.PropertyName": "IsOutline"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "IsBussy",
+            "TypeName": "System.Boolean",
+            "Metadata": {
+              "Common.PropertyName": "IsBussy"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "CaptionAtBusy",
             "TypeName": "System.String",
             "Metadata": {
-              "Common.PropertyName": "NoText"
+              "Common.PropertyName": "CaptionAtBusy"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "OnClick",
+            "TypeName": "Microsoft.AspNetCore.Components.EventCallback<Microsoft.AspNetCore.Components.Web.MouseEventArgs>",
+            "Metadata": {
+              "Common.PropertyName": "OnClick",
+              "Components.EventCallback": "True"
             }
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "MealOrdering.Client.CustomComponents.Modals.BaseModal"
+          "Common.TypeName": "MealOrdering.Client.CustomComponents.Buttons.ButtonComponent"
         }
       },
       {
-        "HashCode": 1044498677,
+        "HashCode": 1213793369,
         "Kind": "Components.Component",
-        "Name": "MealOrdering.Client.CustomComponents.Modals.BaseModal",
+        "Name": "MealOrdering.Client.CustomComponents.Buttons.ButtonComponent",
         "AssemblyName": "MealOrdering.Client",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "MealOrdering.Client.CustomComponents.Modals.BaseModal"
+            "TagName": "MealOrdering.Client.CustomComponents.Buttons.ButtonComponent"
           }
         ],
         "BoundAttributes": [
           {
             "Kind": "Components.Component",
-            "Name": "Message",
+            "Name": "Caption",
             "TypeName": "System.String",
             "Metadata": {
-              "Common.PropertyName": "Message"
+              "Common.PropertyName": "Caption"
             }
           },
           {
             "Kind": "Components.Component",
-            "Name": "OkText",
+            "Name": "Color",
             "TypeName": "System.String",
             "Metadata": {
-              "Common.PropertyName": "OkText"
+              "Common.PropertyName": "Color"
             }
           },
           {
             "Kind": "Components.Component",
-            "Name": "CancelText",
+            "Name": "Icon",
             "TypeName": "System.String",
             "Metadata": {
-              "Common.PropertyName": "CancelText"
+              "Common.PropertyName": "Icon"
             }
           },
           {
             "Kind": "Components.Component",
-            "Name": "YesText",
+            "Name": "ToolTipsStr",
             "TypeName": "System.String",
             "Metadata": {
-              "Common.PropertyName": "YesText"
+              "Common.PropertyName": "ToolTipsStr"
             }
           },
           {
             "Kind": "Components.Component",
-            "Name": "NoText",
+            "Name": "IsSmall",
+            "TypeName": "System.Boolean",
+            "Metadata": {
+              "Common.PropertyName": "IsSmall"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "IsOutline",
+            "TypeName": "System.Boolean",
+            "Metadata": {
+              "Common.PropertyName": "IsOutline"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "IsBussy",
+            "TypeName": "System.Boolean",
+            "Metadata": {
+              "Common.PropertyName": "IsBussy"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "CaptionAtBusy",
             "TypeName": "System.String",
             "Metadata": {
-              "Common.PropertyName": "NoText"
+              "Common.PropertyName": "CaptionAtBusy"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "OnClick",
+            "TypeName": "Microsoft.AspNetCore.Components.EventCallback<Microsoft.AspNetCore.Components.Web.MouseEventArgs>",
+            "Metadata": {
+              "Common.PropertyName": "OnClick",
+              "Components.EventCallback": "True"
             }
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "MealOrdering.Client.CustomComponents.Modals.BaseModal",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": -641744937,
-        "Kind": "Components.Component",
-        "Name": "MealOrdering.Client.CustomComponents.Modals.ConfirmStatus",
-        "AssemblyName": "MealOrdering.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "ConfirmStatus"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Message",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "Message"
-            }
-          },
-          {
-            "Kind": "Components.Component",
-            "Name": "OkText",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "OkText"
-            }
-          },
-          {
-            "Kind": "Components.Component",
-            "Name": "CancelText",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "CancelText"
-            }
-          },
-          {
-            "Kind": "Components.Component",
-            "Name": "YesText",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "YesText"
-            }
-          },
-          {
-            "Kind": "Components.Component",
-            "Name": "NoText",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "NoText"
-            }
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "MealOrdering.Client.CustomComponents.Modals.ConfirmStatus"
-        }
-      },
-      {
-        "HashCode": 1671775930,
-        "Kind": "Components.Component",
-        "Name": "MealOrdering.Client.CustomComponents.Modals.ConfirmStatus",
-        "AssemblyName": "MealOrdering.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "MealOrdering.Client.CustomComponents.Modals.ConfirmStatus"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Message",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "Message"
-            }
-          },
-          {
-            "Kind": "Components.Component",
-            "Name": "OkText",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "OkText"
-            }
-          },
-          {
-            "Kind": "Components.Component",
-            "Name": "CancelText",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "CancelText"
-            }
-          },
-          {
-            "Kind": "Components.Component",
-            "Name": "YesText",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "YesText"
-            }
-          },
-          {
-            "Kind": "Components.Component",
-            "Name": "NoText",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "NoText"
-            }
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "MealOrdering.Client.CustomComponents.Modals.ConfirmStatus",
+          "Common.TypeName": "MealOrdering.Client.CustomComponents.Buttons.ButtonComponent",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -941,134 +674,236 @@
         }
       },
       {
-        "HashCode": -641728630,
+        "HashCode": -641744937,
         "Kind": "Components.Component",
-        "Name": "MealOrdering.Client.Pages.ButtonTest",
+        "Name": "MealOrdering.Client.CustomComponents.Modals.ConfirmStatus",
         "AssemblyName": "MealOrdering.Client",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "ButtonTest"
+            "TagName": "ConfirmStatus"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Message",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Message"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "OkText",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "OkText"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "CancelText",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "CancelText"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "YesText",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "YesText"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "NoText",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "NoText"
+            }
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "MealOrdering.Client.Pages.ButtonTest"
+          "Common.TypeName": "MealOrdering.Client.CustomComponents.Modals.ConfirmStatus"
         }
       },
       {
-        "HashCode": -224864052,
+        "HashCode": 1671775930,
         "Kind": "Components.Component",
-        "Name": "MealOrdering.Client.Pages.ButtonTest",
+        "Name": "MealOrdering.Client.CustomComponents.Modals.ConfirmStatus",
         "AssemblyName": "MealOrdering.Client",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "MealOrdering.Client.Pages.ButtonTest"
+            "TagName": "MealOrdering.Client.CustomComponents.Modals.ConfirmStatus"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Message",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Message"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "OkText",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "OkText"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "CancelText",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "CancelText"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "YesText",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "YesText"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "NoText",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "NoText"
+            }
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "MealOrdering.Client.Pages.ButtonTest",
+          "Common.TypeName": "MealOrdering.Client.CustomComponents.Modals.ConfirmStatus",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
       {
-        "HashCode": 826910058,
+        "HashCode": 1348629915,
         "Kind": "Components.Component",
-        "Name": "MealOrdering.Client.Pages.Counter",
+        "Name": "MealOrdering.Client.CustomComponents.Modals.BaseModal",
         "AssemblyName": "MealOrdering.Client",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "Counter"
+            "TagName": "BaseModal"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Message",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Message"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "OkText",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "OkText"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "CancelText",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "CancelText"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "YesText",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "YesText"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "NoText",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "NoText"
+            }
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "MealOrdering.Client.Pages.Counter"
+          "Common.TypeName": "MealOrdering.Client.CustomComponents.Modals.BaseModal"
         }
       },
       {
-        "HashCode": 924181456,
+        "HashCode": 1044498677,
         "Kind": "Components.Component",
-        "Name": "MealOrdering.Client.Pages.Counter",
+        "Name": "MealOrdering.Client.CustomComponents.Modals.BaseModal",
         "AssemblyName": "MealOrdering.Client",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "MealOrdering.Client.Pages.Counter"
+            "TagName": "MealOrdering.Client.CustomComponents.Modals.BaseModal"
           }
         ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "MealOrdering.Client.Pages.Counter",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": -1040793083,
-        "Kind": "Components.Component",
-        "Name": "MealOrdering.Client.Pages.FetchData",
-        "AssemblyName": "MealOrdering.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
+        "BoundAttributes": [
           {
-            "TagName": "FetchData"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "MealOrdering.Client.Pages.FetchData"
-        }
-      },
-      {
-        "HashCode": 1963618415,
-        "Kind": "Components.Component",
-        "Name": "MealOrdering.Client.Pages.FetchData",
-        "AssemblyName": "MealOrdering.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
+            "Kind": "Components.Component",
+            "Name": "Message",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Message"
+            }
+          },
           {
-            "TagName": "MealOrdering.Client.Pages.FetchData"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "MealOrdering.Client.Pages.FetchData",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": 1102940079,
-        "Kind": "Components.Component",
-        "Name": "MealOrdering.Client.Pages.Index",
-        "AssemblyName": "MealOrdering.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
+            "Kind": "Components.Component",
+            "Name": "OkText",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "OkText"
+            }
+          },
           {
-            "TagName": "Index"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "MealOrdering.Client.Pages.Index"
-        }
-      },
-      {
-        "HashCode": 356780893,
-        "Kind": "Components.Component",
-        "Name": "MealOrdering.Client.Pages.Index",
-        "AssemblyName": "MealOrdering.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
+            "Kind": "Components.Component",
+            "Name": "CancelText",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "CancelText"
+            }
+          },
           {
-            "TagName": "MealOrdering.Client.Pages.Index"
+            "Kind": "Components.Component",
+            "Name": "YesText",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "YesText"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "NoText",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "NoText"
+            }
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "MealOrdering.Client.Pages.Index",
+          "Common.TypeName": "MealOrdering.Client.CustomComponents.Modals.BaseModal",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -1122,6 +957,39 @@
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "MealOrdering.Client.Shared.SurveyPrompt",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -1473544224,
+        "Kind": "Components.Component",
+        "Name": "MealOrdering.Client.Shared.NavMenu",
+        "AssemblyName": "MealOrdering.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "NavMenu"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "MealOrdering.Client.Shared.NavMenu"
+        }
+      },
+      {
+        "HashCode": -1950242341,
+        "Kind": "Components.Component",
+        "Name": "MealOrdering.Client.Shared.NavMenu",
+        "AssemblyName": "MealOrdering.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "MealOrdering.Client.Shared.NavMenu"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "MealOrdering.Client.Shared.NavMenu",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -1222,35 +1090,167 @@
         }
       },
       {
-        "HashCode": -1473544224,
+        "HashCode": -641728630,
         "Kind": "Components.Component",
-        "Name": "MealOrdering.Client.Shared.NavMenu",
+        "Name": "MealOrdering.Client.Pages.ButtonTest",
         "AssemblyName": "MealOrdering.Client",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "NavMenu"
+            "TagName": "ButtonTest"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "MealOrdering.Client.Shared.NavMenu"
+          "Common.TypeName": "MealOrdering.Client.Pages.ButtonTest"
         }
       },
       {
-        "HashCode": -1950242341,
+        "HashCode": -224864052,
         "Kind": "Components.Component",
-        "Name": "MealOrdering.Client.Shared.NavMenu",
+        "Name": "MealOrdering.Client.Pages.ButtonTest",
         "AssemblyName": "MealOrdering.Client",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "MealOrdering.Client.Shared.NavMenu"
+            "TagName": "MealOrdering.Client.Pages.ButtonTest"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "MealOrdering.Client.Shared.NavMenu",
+          "Common.TypeName": "MealOrdering.Client.Pages.ButtonTest",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -1040793083,
+        "Kind": "Components.Component",
+        "Name": "MealOrdering.Client.Pages.FetchData",
+        "AssemblyName": "MealOrdering.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "FetchData"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "MealOrdering.Client.Pages.FetchData"
+        }
+      },
+      {
+        "HashCode": 1963618415,
+        "Kind": "Components.Component",
+        "Name": "MealOrdering.Client.Pages.FetchData",
+        "AssemblyName": "MealOrdering.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "MealOrdering.Client.Pages.FetchData"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "MealOrdering.Client.Pages.FetchData",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 826910058,
+        "Kind": "Components.Component",
+        "Name": "MealOrdering.Client.Pages.Counter",
+        "AssemblyName": "MealOrdering.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Counter"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "MealOrdering.Client.Pages.Counter"
+        }
+      },
+      {
+        "HashCode": 924181456,
+        "Kind": "Components.Component",
+        "Name": "MealOrdering.Client.Pages.Counter",
+        "AssemblyName": "MealOrdering.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "MealOrdering.Client.Pages.Counter"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "MealOrdering.Client.Pages.Counter",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 1102940079,
+        "Kind": "Components.Component",
+        "Name": "MealOrdering.Client.Pages.Index",
+        "AssemblyName": "MealOrdering.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Index"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "MealOrdering.Client.Pages.Index"
+        }
+      },
+      {
+        "HashCode": 356780893,
+        "Kind": "Components.Component",
+        "Name": "MealOrdering.Client.Pages.Index",
+        "AssemblyName": "MealOrdering.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "MealOrdering.Client.Pages.Index"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "MealOrdering.Client.Pages.Index",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -1229335562,
+        "Kind": "Components.Component",
+        "Name": "MealOrdering.Client.App",
+        "AssemblyName": "MealOrdering.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "App"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "MealOrdering.Client.App"
+        }
+      },
+      {
+        "HashCode": -950613767,
+        "Kind": "Components.Component",
+        "Name": "MealOrdering.Client.App",
+        "AssemblyName": "MealOrdering.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "MealOrdering.Client.App"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "MealOrdering.Client.App",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
