@@ -825,7 +825,7 @@ D:\dotnetProjects\Learning_Heaven\Blazor\MealOrdering\MealOrdering\Client\obj\De
 D:\dotnetProjects\Learning_Heaven\Blazor\MealOrdering\MealOrdering\Client\obj\Debug\net6.0\build-gz\2scR+QOw.gz
 D:\dotnetProjects\Learning_Heaven\Blazor\MealOrdering\MealOrdering\Client\obj\Debug\net6.0\build-gz\wXiS6wJT.gz
 D:\dotnetProjects\Learning_Heaven\Blazor\MealOrdering\MealOrdering\Client\obj\Debug\net6.0\build-gz\JjWMYPzl.gz
-D:\dotnetProjects\Learning_Heaven\Blazor\MealOrdering\MealOrdering\Client\obj\Debug\net6.0\build-gz\IfV42EcF.gz
-D:\dotnetProjects\Learning_Heaven\Blazor\MealOrdering\MealOrdering\Client\obj\Debug\net6.0\build-gz\MB+3OqaW.gz
-D:\dotnetProjects\Learning_Heaven\Blazor\MealOrdering\MealOrdering\Client\obj\Debug\net6.0\build-gz\avsP6Szc.gz
-D:\dotnetProjects\Learning_Heaven\Blazor\MealOrdering\MealOrdering\Client\obj\Debug\net6.0\build-gz\2J5BWODw.gz
+D:\dotnetprojects\Learning_Heaven\Blazor\MealOrdering\MealOrdering\Client\obj\Debug\net6.0\build-gz\xhteuVBv.gz
+D:\dotnetprojects\Learning_Heaven\Blazor\MealOrdering\MealOrdering\Client\obj\Debug\net6.0\build-gz\QL5vJM1m.gz
+D:\dotnetprojects\Learning_Heaven\Blazor\MealOrdering\MealOrdering\Client\obj\Debug\net6.0\build-gz\T0w6xr0i.gz
+D:\dotnetprojects\Learning_Heaven\Blazor\MealOrdering\MealOrdering\Client\obj\Debug\net6.0\build-gz\ax0zuEnc.gz

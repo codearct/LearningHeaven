@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "au8ReV92Q6MMVYq6sInHGMcVPdR3zXrYlRpnSuaAUK+SwSW2auGNUcyeqm2HxYI/WMjUKyriotCjVZt49UtAiA==",
+  "dgSpecHash": "NTQ42irroTSTW04+nAGShoDW8zWnW2WzcXzGo/07pc6fhTVnBnGBx1+j/xF+OG+kOLpuFflnrDDOcYjn/hqO+w==",
   "success": true,
-  "projectFilePath": "D:\\dotnetProjects\\Learning_Heaven\\Blazor\\MealOrdering\\MealOrdering\\Shared\\MealOrdering.Shared.csproj",
+  "projectFilePath": "D:\\dotnetprojects\\Learning_Heaven\\Blazor\\MealOrdering\\MealOrdering\\Shared\\MealOrdering.Shared.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

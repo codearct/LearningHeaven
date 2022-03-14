@@ -11,69 +11,73 @@ build_property.EnableTrimAnalyzer = true
 build_property.IncludeAllContentForSelfExtract = 
 build_property.RootNamespace = MealOrdering.Client
 build_property.RootNamespace = MealOrdering.Client
-build_property.ProjectDir = D:\dotnetProjects\Learning_Heaven\Blazor\MealOrdering\MealOrdering\Client\
+build_property.ProjectDir = D:\dotnetprojects\Learning_Heaven\Blazor\MealOrdering\MealOrdering\Client\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\dotnetProjects\Learning_Heaven\Blazor\MealOrdering\MealOrdering\Client
+build_property.MSBuildProjectDirectory = D:\dotnetprojects\Learning_Heaven\Blazor\MealOrdering\MealOrdering\Client
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/dotnetProjects/Learning_Heaven/Blazor/MealOrdering/MealOrdering/Client/App.razor]
+[D:/dotnetprojects/Learning_Heaven/Blazor/MealOrdering/MealOrdering/Client/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/dotnetProjects/Learning_Heaven/Blazor/MealOrdering/MealOrdering/Client/CustomComponents/Buttons/BaseButton.razor]
+[D:/dotnetprojects/Learning_Heaven/Blazor/MealOrdering/MealOrdering/Client/CustomComponents/Buttons/BaseButton.razor]
 build_metadata.AdditionalFiles.TargetPath = Q3VzdG9tQ29tcG9uZW50c1xCdXR0b25zXEJhc2VCdXR0b24ucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/dotnetProjects/Learning_Heaven/Blazor/MealOrdering/MealOrdering/Client/CustomComponents/Buttons/ButtonComponent.razor]
+[D:/dotnetprojects/Learning_Heaven/Blazor/MealOrdering/MealOrdering/Client/CustomComponents/Buttons/ButtonComponent.razor]
 build_metadata.AdditionalFiles.TargetPath = Q3VzdG9tQ29tcG9uZW50c1xCdXR0b25zXEJ1dHRvbkNvbXBvbmVudC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/dotnetProjects/Learning_Heaven/Blazor/MealOrdering/MealOrdering/Client/CustomComponents/Buttons/EditButton.razor]
+[D:/dotnetprojects/Learning_Heaven/Blazor/MealOrdering/MealOrdering/Client/CustomComponents/Buttons/EditButton.razor]
 build_metadata.AdditionalFiles.TargetPath = Q3VzdG9tQ29tcG9uZW50c1xCdXR0b25zXEVkaXRCdXR0b24ucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/dotnetProjects/Learning_Heaven/Blazor/MealOrdering/MealOrdering/Client/CustomComponents/Modals/BaseModal.razor]
+[D:/dotnetprojects/Learning_Heaven/Blazor/MealOrdering/MealOrdering/Client/CustomComponents/Modals/BaseModal.razor]
 build_metadata.AdditionalFiles.TargetPath = Q3VzdG9tQ29tcG9uZW50c1xNb2RhbHNcQmFzZU1vZGFsLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/dotnetProjects/Learning_Heaven/Blazor/MealOrdering/MealOrdering/Client/CustomComponents/Modals/ConfirmStatus.razor]
+[D:/dotnetprojects/Learning_Heaven/Blazor/MealOrdering/MealOrdering/Client/CustomComponents/Modals/ConfirmStatus.razor]
 build_metadata.AdditionalFiles.TargetPath = Q3VzdG9tQ29tcG9uZW50c1xNb2RhbHNcQ29uZmlybVN0YXR1cy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/dotnetProjects/Learning_Heaven/Blazor/MealOrdering/MealOrdering/Client/CustomComponents/Modals/ShowMessage.razor]
+[D:/dotnetprojects/Learning_Heaven/Blazor/MealOrdering/MealOrdering/Client/CustomComponents/Modals/ShowMessage.razor]
 build_metadata.AdditionalFiles.TargetPath = Q3VzdG9tQ29tcG9uZW50c1xNb2RhbHNcU2hvd01lc3NhZ2UucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/dotnetProjects/Learning_Heaven/Blazor/MealOrdering/MealOrdering/Client/Pages/ButtonTest.razor]
+[D:/dotnetprojects/Learning_Heaven/Blazor/MealOrdering/MealOrdering/Client/Pages/ButtonTest.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQnV0dG9uVGVzdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/dotnetProjects/Learning_Heaven/Blazor/MealOrdering/MealOrdering/Client/Pages/Counter.razor]
+[D:/dotnetprojects/Learning_Heaven/Blazor/MealOrdering/MealOrdering/Client/Pages/Counter.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/dotnetProjects/Learning_Heaven/Blazor/MealOrdering/MealOrdering/Client/Pages/FetchData.razor]
+[D:/dotnetprojects/Learning_Heaven/Blazor/MealOrdering/MealOrdering/Client/Pages/FetchData.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmV0Y2hEYXRhLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/dotnetProjects/Learning_Heaven/Blazor/MealOrdering/MealOrdering/Client/Pages/Index.razor]
+[D:/dotnetprojects/Learning_Heaven/Blazor/MealOrdering/MealOrdering/Client/Pages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/dotnetProjects/Learning_Heaven/Blazor/MealOrdering/MealOrdering/Client/Shared/SurveyPrompt.razor]
+[D:/dotnetprojects/Learning_Heaven/Blazor/MealOrdering/MealOrdering/Client/Pages/Users/UsersList.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXNlcnNcVXNlcnNMaXN0LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/dotnetprojects/Learning_Heaven/Blazor/MealOrdering/MealOrdering/Client/Shared/SurveyPrompt.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/dotnetProjects/Learning_Heaven/Blazor/MealOrdering/MealOrdering/Client/_Imports.razor]
+[D:/dotnetprojects/Learning_Heaven/Blazor/MealOrdering/MealOrdering/Client/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/dotnetProjects/Learning_Heaven/Blazor/MealOrdering/MealOrdering/Client/Shared/MainLayout.razor]
+[D:/dotnetprojects/Learning_Heaven/Blazor/MealOrdering/MealOrdering/Client/Shared/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-ggfj85buxz
 
-[D:/dotnetProjects/Learning_Heaven/Blazor/MealOrdering/MealOrdering/Client/Shared/NavMenu.razor]
+[D:/dotnetprojects/Learning_Heaven/Blazor/MealOrdering/MealOrdering/Client/Shared/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-d1vmizeto8

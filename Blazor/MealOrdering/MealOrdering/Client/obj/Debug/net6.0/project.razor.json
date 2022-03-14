@@ -8,6 +8,39 @@
   "ProjectWorkspaceState": {
     "TagHelpers": [
       {
+        "HashCode": 566592449,
+        "Kind": "Components.Component",
+        "Name": "Client.Pages.Users.UsersListBase",
+        "AssemblyName": "MealOrdering.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "UsersListBase"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "Client.Pages.Users.UsersListBase"
+        }
+      },
+      {
+        "HashCode": 2052111397,
+        "Kind": "Components.Component",
+        "Name": "Client.Pages.Users.UsersListBase",
+        "AssemblyName": "MealOrdering.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Client.Pages.Users.UsersListBase"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "Client.Pages.Users.UsersListBase",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
         "HashCode": 1063408388,
         "Kind": "Components.Component",
         "Name": "MealOrdering.Client.CustomComponents.Buttons.BaseButton",
@@ -1222,6 +1255,39 @@
         }
       },
       {
+        "HashCode": 1146717299,
+        "Kind": "Components.Component",
+        "Name": "MealOrdering.Client.Pages.Users.UsersList",
+        "AssemblyName": "MealOrdering.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "UsersList"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "MealOrdering.Client.Pages.Users.UsersList"
+        }
+      },
+      {
+        "HashCode": 2121225390,
+        "Kind": "Components.Component",
+        "Name": "MealOrdering.Client.Pages.Users.UsersList",
+        "AssemblyName": "MealOrdering.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "MealOrdering.Client.Pages.Users.UsersList"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "MealOrdering.Client.Pages.Users.UsersList",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
         "HashCode": -1229335562,
         "Kind": "Components.Component",
         "Name": "MealOrdering.Client.App",
@@ -1251,6 +1317,39 @@
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "MealOrdering.Client.App",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -210603851,
+        "Kind": "Components.Component",
+        "Name": "__GeneratedComponent.AspNetCore_4c98e2ef040afc2de06527937d09c70fb1ad1310",
+        "AssemblyName": "MealOrdering.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "AspNetCore_4c98e2ef040afc2de06527937d09c70fb1ad1310"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "__GeneratedComponent.AspNetCore_4c98e2ef040afc2de06527937d09c70fb1ad1310"
+        }
+      },
+      {
+        "HashCode": -1601839386,
+        "Kind": "Components.Component",
+        "Name": "__GeneratedComponent.AspNetCore_4c98e2ef040afc2de06527937d09c70fb1ad1310",
+        "AssemblyName": "MealOrdering.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "__GeneratedComponent.AspNetCore_4c98e2ef040afc2de06527937d09c70fb1ad1310"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "__GeneratedComponent.AspNetCore_4c98e2ef040afc2de06527937d09c70fb1ad1310",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -15205,6 +15304,11 @@
     {
       "FilePath": "d:\\dotnetProjects\\Learning_Heaven\\Blazor\\MealOrdering\\MealOrdering\\Client\\Shared\\SurveyPrompt.razor",
       "TargetPath": "Shared\\SurveyPrompt.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "d:\\dotnetProjects\\Learning_Heaven\\Blazor\\MealOrdering\\MealOrdering\\Client\\Pages\\Users\\UsersList.razor",
+      "TargetPath": "Pages\\Users\\UsersList.razor",
       "FileKind": "component"
     },
     {
