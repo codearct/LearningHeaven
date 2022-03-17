@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\dotnetprojects\\Learning_Heaven\\Blazor\\MealOrdering\\MealOrdering\\Server\\MealOrdering.Server.csproj": {}
+    "D:\\dotnetProjects\\Learning_Heaven\\Blazor\\MealOrdering\\MealOrdering\\Server\\MealOrdering.Server.csproj": {}
   },
   "projects": {
-    "D:\\dotnetprojects\\Learning_Heaven\\Blazor\\MealOrdering\\MealOrdering.Server.Data\\MealOrdering.Server.Data.csproj": {
+    "D:\\dotnetProjects\\Learning_Heaven\\Blazor\\MealOrdering\\MealOrdering.Server.Data\\MealOrdering.Server.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\dotnetprojects\\Learning_Heaven\\Blazor\\MealOrdering\\MealOrdering.Server.Data\\MealOrdering.Server.Data.csproj",
+        "projectUniqueName": "D:\\dotnetProjects\\Learning_Heaven\\Blazor\\MealOrdering\\MealOrdering.Server.Data\\MealOrdering.Server.Data.csproj",
         "projectName": "MealOrdering.Server.Data",
-        "projectPath": "D:\\dotnetprojects\\Learning_Heaven\\Blazor\\MealOrdering\\MealOrdering.Server.Data\\MealOrdering.Server.Data.csproj",
+        "projectPath": "D:\\dotnetProjects\\Learning_Heaven\\Blazor\\MealOrdering\\MealOrdering.Server.Data\\MealOrdering.Server.Data.csproj",
         "packagesPath": "C:\\Users\\Akif\\.nuget\\packages\\",
-        "outputPath": "D:\\dotnetprojects\\Learning_Heaven\\Blazor\\MealOrdering\\MealOrdering.Server.Data\\obj\\",
+        "outputPath": "D:\\dotnetProjects\\Learning_Heaven\\Blazor\\MealOrdering\\MealOrdering.Server.Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Akif\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -86,14 +86,14 @@
         }
       }
     },
-    "D:\\dotnetprojects\\Learning_Heaven\\Blazor\\MealOrdering\\MealOrdering\\Client\\MealOrdering.Client.csproj": {
+    "D:\\dotnetProjects\\Learning_Heaven\\Blazor\\MealOrdering\\MealOrdering\\Client\\MealOrdering.Client.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\dotnetprojects\\Learning_Heaven\\Blazor\\MealOrdering\\MealOrdering\\Client\\MealOrdering.Client.csproj",
+        "projectUniqueName": "D:\\dotnetProjects\\Learning_Heaven\\Blazor\\MealOrdering\\MealOrdering\\Client\\MealOrdering.Client.csproj",
         "projectName": "MealOrdering.Client",
-        "projectPath": "D:\\dotnetprojects\\Learning_Heaven\\Blazor\\MealOrdering\\MealOrdering\\Client\\MealOrdering.Client.csproj",
+        "projectPath": "D:\\dotnetProjects\\Learning_Heaven\\Blazor\\MealOrdering\\MealOrdering\\Client\\MealOrdering.Client.csproj",
         "packagesPath": "C:\\Users\\Akif\\.nuget\\packages\\",
-        "outputPath": "D:\\dotnetprojects\\Learning_Heaven\\Blazor\\MealOrdering\\MealOrdering\\Client\\obj\\",
+        "outputPath": "D:\\dotnetProjects\\Learning_Heaven\\Blazor\\MealOrdering\\MealOrdering\\Client\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Akif\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -112,8 +112,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\dotnetprojects\\Learning_Heaven\\Blazor\\MealOrdering\\MealOrdering\\Shared\\MealOrdering.Shared.csproj": {
-                "projectPath": "D:\\dotnetprojects\\Learning_Heaven\\Blazor\\MealOrdering\\MealOrdering\\Shared\\MealOrdering.Shared.csproj"
+              "D:\\dotnetProjects\\Learning_Heaven\\Blazor\\MealOrdering\\MealOrdering\\Shared\\MealOrdering.Shared.csproj": {
+                "projectPath": "D:\\dotnetProjects\\Learning_Heaven\\Blazor\\MealOrdering\\MealOrdering\\Shared\\MealOrdering.Shared.csproj"
               }
             }
           }
@@ -128,6 +128,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Blazored.LocalStorage": {
+              "target": "Package",
+              "version": "[4.2.0, )"
+            },
             "Blazored.Modal": {
               "target": "Package",
               "version": "[6.0.1, )"
@@ -172,14 +176,14 @@
         }
       }
     },
-    "D:\\dotnetprojects\\Learning_Heaven\\Blazor\\MealOrdering\\MealOrdering\\Server\\MealOrdering.Server.csproj": {
+    "D:\\dotnetProjects\\Learning_Heaven\\Blazor\\MealOrdering\\MealOrdering\\Server\\MealOrdering.Server.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\dotnetprojects\\Learning_Heaven\\Blazor\\MealOrdering\\MealOrdering\\Server\\MealOrdering.Server.csproj",
+        "projectUniqueName": "D:\\dotnetProjects\\Learning_Heaven\\Blazor\\MealOrdering\\MealOrdering\\Server\\MealOrdering.Server.csproj",
         "projectName": "MealOrdering.Server",
-        "projectPath": "D:\\dotnetprojects\\Learning_Heaven\\Blazor\\MealOrdering\\MealOrdering\\Server\\MealOrdering.Server.csproj",
+        "projectPath": "D:\\dotnetProjects\\Learning_Heaven\\Blazor\\MealOrdering\\MealOrdering\\Server\\MealOrdering.Server.csproj",
         "packagesPath": "C:\\Users\\Akif\\.nuget\\packages\\",
-        "outputPath": "D:\\dotnetprojects\\Learning_Heaven\\Blazor\\MealOrdering\\MealOrdering\\Server\\obj\\",
+        "outputPath": "D:\\dotnetProjects\\Learning_Heaven\\Blazor\\MealOrdering\\MealOrdering\\Server\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Akif\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -198,14 +202,14 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\dotnetprojects\\Learning_Heaven\\Blazor\\MealOrdering\\MealOrdering.Server.Data\\MealOrdering.Server.Data.csproj": {
-                "projectPath": "D:\\dotnetprojects\\Learning_Heaven\\Blazor\\MealOrdering\\MealOrdering.Server.Data\\MealOrdering.Server.Data.csproj"
+              "D:\\dotnetProjects\\Learning_Heaven\\Blazor\\MealOrdering\\MealOrdering.Server.Data\\MealOrdering.Server.Data.csproj": {
+                "projectPath": "D:\\dotnetProjects\\Learning_Heaven\\Blazor\\MealOrdering\\MealOrdering.Server.Data\\MealOrdering.Server.Data.csproj"
               },
-              "D:\\dotnetprojects\\Learning_Heaven\\Blazor\\MealOrdering\\MealOrdering\\Client\\MealOrdering.Client.csproj": {
-                "projectPath": "D:\\dotnetprojects\\Learning_Heaven\\Blazor\\MealOrdering\\MealOrdering\\Client\\MealOrdering.Client.csproj"
+              "D:\\dotnetProjects\\Learning_Heaven\\Blazor\\MealOrdering\\MealOrdering\\Client\\MealOrdering.Client.csproj": {
+                "projectPath": "D:\\dotnetProjects\\Learning_Heaven\\Blazor\\MealOrdering\\MealOrdering\\Client\\MealOrdering.Client.csproj"
               },
-              "D:\\dotnetprojects\\Learning_Heaven\\Blazor\\MealOrdering\\MealOrdering\\Shared\\MealOrdering.Shared.csproj": {
-                "projectPath": "D:\\dotnetprojects\\Learning_Heaven\\Blazor\\MealOrdering\\MealOrdering\\Shared\\MealOrdering.Shared.csproj"
+              "D:\\dotnetProjects\\Learning_Heaven\\Blazor\\MealOrdering\\MealOrdering\\Shared\\MealOrdering.Shared.csproj": {
+                "projectPath": "D:\\dotnetProjects\\Learning_Heaven\\Blazor\\MealOrdering\\MealOrdering\\Shared\\MealOrdering.Shared.csproj"
               }
             }
           }
@@ -223,6 +227,14 @@
             "AutoMapper": {
               "target": "Package",
               "version": "[11.0.1, )"
+            },
+            "Blazored.LocalStorage": {
+              "target": "Package",
+              "version": "[4.2.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[6.0.0, )"
             },
             "Microsoft.AspNetCore.Components.WebAssembly.Server": {
               "target": "Package",
@@ -251,14 +263,14 @@
         }
       }
     },
-    "D:\\dotnetprojects\\Learning_Heaven\\Blazor\\MealOrdering\\MealOrdering\\Shared\\MealOrdering.Shared.csproj": {
+    "D:\\dotnetProjects\\Learning_Heaven\\Blazor\\MealOrdering\\MealOrdering\\Shared\\MealOrdering.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\dotnetprojects\\Learning_Heaven\\Blazor\\MealOrdering\\MealOrdering\\Shared\\MealOrdering.Shared.csproj",
+        "projectUniqueName": "D:\\dotnetProjects\\Learning_Heaven\\Blazor\\MealOrdering\\MealOrdering\\Shared\\MealOrdering.Shared.csproj",
         "projectName": "MealOrdering.Shared",
-        "projectPath": "D:\\dotnetprojects\\Learning_Heaven\\Blazor\\MealOrdering\\MealOrdering\\Shared\\MealOrdering.Shared.csproj",
+        "projectPath": "D:\\dotnetProjects\\Learning_Heaven\\Blazor\\MealOrdering\\MealOrdering\\Shared\\MealOrdering.Shared.csproj",
         "packagesPath": "C:\\Users\\Akif\\.nuget\\packages\\",
-        "outputPath": "D:\\dotnetprojects\\Learning_Heaven\\Blazor\\MealOrdering\\MealOrdering\\Shared\\obj\\",
+        "outputPath": "D:\\dotnetProjects\\Learning_Heaven\\Blazor\\MealOrdering\\MealOrdering\\Shared\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Akif\\AppData\\Roaming\\NuGet\\NuGet.Config",

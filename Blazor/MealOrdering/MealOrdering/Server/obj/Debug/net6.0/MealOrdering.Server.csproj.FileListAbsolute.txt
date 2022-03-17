@@ -53,3 +53,11 @@ D:\dotnetProjects\Learning_Heaven\Blazor\MealOrdering\MealOrdering\Server\bin\De
 D:\dotnetProjects\Learning_Heaven\Blazor\MealOrdering\MealOrdering\Server\bin\Debug\net6.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
 D:\dotnetProjects\Learning_Heaven\Blazor\MealOrdering\MealOrdering\Server\bin\Debug\net6.0\MealOrdering.Server.Data.dll
 D:\dotnetProjects\Learning_Heaven\Blazor\MealOrdering\MealOrdering\Server\bin\Debug\net6.0\MealOrdering.Server.Data.pdb
+D:\dotnetProjects\Learning_Heaven\Blazor\MealOrdering\MealOrdering\Server\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\dotnetProjects\Learning_Heaven\Blazor\MealOrdering\MealOrdering\Server\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\dotnetProjects\Learning_Heaven\Blazor\MealOrdering\MealOrdering\Server\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+D:\dotnetProjects\Learning_Heaven\Blazor\MealOrdering\MealOrdering\Server\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+D:\dotnetProjects\Learning_Heaven\Blazor\MealOrdering\MealOrdering\Server\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\dotnetProjects\Learning_Heaven\Blazor\MealOrdering\MealOrdering\Server\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+D:\dotnetProjects\Learning_Heaven\Blazor\MealOrdering\MealOrdering\Server\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+D:\dotnetProjects\Learning_Heaven\Blazor\MealOrdering\MealOrdering\Server\bin\Debug\net6.0\Blazored.LocalStorage.dll

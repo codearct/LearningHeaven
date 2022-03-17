@@ -2,6 +2,18 @@
   "version": 3,
   "targets": {
     "net6.0": {
+      "Blazored.LocalStorage/4.2.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Components.Web": "6.0.0"
+        },
+        "compile": {
+          "lib/net6.0/Blazored.LocalStorage.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Blazored.LocalStorage.dll": {}
+        }
+      },
       "Blazored.Modal/6.0.1": {
         "type": "package",
         "dependencies": {
@@ -424,6 +436,18 @@
       }
     },
     "net6.0/browser-wasm": {
+      "Blazored.LocalStorage/4.2.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Components.Web": "6.0.0"
+        },
+        "compile": {
+          "lib/net6.0/Blazored.LocalStorage.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Blazored.LocalStorage.dll": {}
+        }
+      },
       "Blazored.Modal/6.0.1": {
         "type": "package",
         "dependencies": {
@@ -841,6 +865,21 @@
     }
   },
   "libraries": {
+    "Blazored.LocalStorage/4.2.0": {
+      "sha512": "cn6h0QrLw0AIwkx/LiogtBycBFHIeqT/ptXIt871/07qTCvIGXCQZpc1s38wpmTfYLvpha5+5yn6TvIaY9ziyg==",
+      "type": "package",
+      "path": "blazored.localstorage/4.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "blazored.localstorage.4.2.0.nupkg.sha512",
+        "blazored.localstorage.nuspec",
+        "icon.png",
+        "lib/net5.0/Blazored.LocalStorage.dll",
+        "lib/net6.0/Blazored.LocalStorage.dll",
+        "lib/netstandard2.1/Blazored.LocalStorage.dll"
+      ]
+    },
     "Blazored.Modal/6.0.1": {
       "sha512": "a7FwVYU2nDL6MBvtBnkp8GSLTEdZU4eKcN8ZcfhQNh4tFwGRKsIvz9jN+6eIEGV1PdI2rbzHkif/igyOcfC8Zg==",
       "type": "package",
@@ -1627,6 +1666,7 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "Blazored.LocalStorage >= 4.2.0",
       "Blazored.Modal >= 6.0.1",
       "MealOrdering.Shared >= 1.0.0",
       "Microsoft.AspNetCore.Components.WebAssembly >= 6.0.2",
@@ -1639,11 +1679,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\dotnetprojects\\Learning_Heaven\\Blazor\\MealOrdering\\MealOrdering\\Client\\MealOrdering.Client.csproj",
+      "projectUniqueName": "D:\\dotnetProjects\\Learning_Heaven\\Blazor\\MealOrdering\\MealOrdering\\Client\\MealOrdering.Client.csproj",
       "projectName": "MealOrdering.Client",
-      "projectPath": "D:\\dotnetprojects\\Learning_Heaven\\Blazor\\MealOrdering\\MealOrdering\\Client\\MealOrdering.Client.csproj",
+      "projectPath": "D:\\dotnetProjects\\Learning_Heaven\\Blazor\\MealOrdering\\MealOrdering\\Client\\MealOrdering.Client.csproj",
       "packagesPath": "C:\\Users\\Akif\\.nuget\\packages\\",
-      "outputPath": "D:\\dotnetprojects\\Learning_Heaven\\Blazor\\MealOrdering\\MealOrdering\\Client\\obj\\",
+      "outputPath": "D:\\dotnetProjects\\Learning_Heaven\\Blazor\\MealOrdering\\MealOrdering\\Client\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Akif\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1662,8 +1702,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\dotnetprojects\\Learning_Heaven\\Blazor\\MealOrdering\\MealOrdering\\Shared\\MealOrdering.Shared.csproj": {
-              "projectPath": "D:\\dotnetprojects\\Learning_Heaven\\Blazor\\MealOrdering\\MealOrdering\\Shared\\MealOrdering.Shared.csproj"
+            "D:\\dotnetProjects\\Learning_Heaven\\Blazor\\MealOrdering\\MealOrdering\\Shared\\MealOrdering.Shared.csproj": {
+              "projectPath": "D:\\dotnetProjects\\Learning_Heaven\\Blazor\\MealOrdering\\MealOrdering\\Shared\\MealOrdering.Shared.csproj"
             }
           }
         }
@@ -1678,6 +1718,10 @@
       "net6.0": {
         "targetAlias": "net6.0",
         "dependencies": {
+          "Blazored.LocalStorage": {
+            "target": "Package",
+            "version": "[4.2.0, )"
+          },
           "Blazored.Modal": {
             "target": "Package",
             "version": "[6.0.1, )"

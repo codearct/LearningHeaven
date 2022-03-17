@@ -1,3 +1,4 @@
+using Blazored.LocalStorage;
 using Blazored.Modal;
 using MealOrdering.Client;
 using MealOrdering.Client.Utils;
@@ -10,8 +11,11 @@ builder.RootComponents.Add<HeadOutlet>("head::after");
 
 builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri(builder.HostEnvironment.BaseAddress) });
 
+//Blazored
+builder.Services.AddBlazoredModal();
+builder.Services.AddBlazoredLocalStorage();
+
 builder.Services.AddScoped<ModalManager>();
 
-builder.Services.AddBlazoredModal();
 
 await builder.Build().RunAsync();

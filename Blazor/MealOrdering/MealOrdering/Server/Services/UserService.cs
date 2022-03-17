@@ -1,21 +1,30 @@
+using System.IdentityModel.Tokens.Jwt;
+using System.Security.Claims;
+using System.Text;
 using AutoMapper;
 using AutoMapper.QueryableExtensions;
 using MealOrdering.Server.Data.Context;
 using MealOrdering.Server.Data.Models;
 using MealOrdering.Shared.DTO;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.IdentityModel.Tokens;
+using Shared.DTO;
+using Shared.Utils;
 
 namespace MealOrdering.Server.Services
 {
     public class UserService : IUserService
     {
-        IMapper _mapper;
+        private readonly IMapper _mapper;
         private readonly MealOrderingDbContext _context;
+        private readonly IConfiguration _configuration;
 
-        public UserService(IMapper mapper, MealOrderingDbContext context)
+
+        public UserService(IMapper mapper, MealOrderingDbContext context, IConfiguration configuration)
         {
             _mapper = mapper;
             _context = context;
+            _configuration = configuration;
         }
 
         public async Task<UserDTO> CreateUser(UserDTO user)
@@ -25,7 +34,9 @@ namespace MealOrdering.Server.Services
             {
                 throw new Exception("Kullanıcı Mevcut");
             }
+
             dbUser = _mapper.Map<User>(user);
+            dbUser.Password = PasswordEncrypter.Encrypt(user.Password);
             await _context.Users.AddAsync(dbUser);
             await _context.SaveChangesAsync();
 
@@ -79,6 +90,46 @@ namespace MealOrdering.Server.Services
             await _context.SaveChangesAsync();
 
             return _mapper.Map<UserDTO>(dbUser);
+        }
+
+        public async Task<UserLoginResponseDTO> Login(string email, string password)
+        {
+            var encryptedPassword = PasswordEncrypter.Encrypt(password);
+
+            var dbUser = await _context.Users.FirstOrDefaultAsync(i => i.EMailAdress == email && i.Password == encryptedPassword);
+
+            if (dbUser == null)
+                throw new Exception("User not found or given information is wrong");
+
+            if (!dbUser.IsActive)
+                throw new Exception("User state is Passive!");
+
+            UserLoginResponseDTO userLoginResponse = new UserLoginResponseDTO();
+
+            var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_configuration["JwtSecurityKey"]));
+            var credentials = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
+            var expireDate = DateTime.Now.AddDays(int.Parse(_configuration["JwtExpiryInDays"].ToString()));
+
+            var claims = new[]
+            {
+                new Claim(ClaimTypes.Email,email),
+                new Claim(ClaimTypes.Name, dbUser.FirstName + " " + dbUser.LastName)
+            };
+
+            var token = new JwtSecurityToken
+            (
+                _configuration["JwtIssuer"],
+                _configuration["JwtAudience"],
+                claims,
+                null,
+                expireDate,
+                credentials
+            );
+
+            userLoginResponse.ApiToken = new JwtSecurityTokenHandler().WriteToken(token);
+            userLoginResponse.User = _mapper.Map<UserDTO>(dbUser);
+
+            return userLoginResponse;
         }
     }
 }

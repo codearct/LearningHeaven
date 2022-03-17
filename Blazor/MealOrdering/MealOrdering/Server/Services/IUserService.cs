@@ -1,4 +1,5 @@
 using MealOrdering.Shared.DTO;
+using Shared.DTO;
 
 namespace MealOrdering.Server.Services
 {
@@ -9,5 +10,6 @@ namespace MealOrdering.Server.Services
         Task<UserDTO> CreateUser(UserDTO user);
         Task<UserDTO> UpdateUser(UserDTO user);
         Task<bool> DeleteUser(Guid id);
+        Task<UserLoginResponseDTO> Login(string email, string password);
     }
 }

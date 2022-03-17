@@ -41,6 +41,204 @@
         }
       },
       {
+        "HashCode": -641728630,
+        "Kind": "Components.Component",
+        "Name": "MealOrdering.Client.Pages.ButtonTest",
+        "AssemblyName": "MealOrdering.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "ButtonTest"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "MealOrdering.Client.Pages.ButtonTest"
+        }
+      },
+      {
+        "HashCode": -224864052,
+        "Kind": "Components.Component",
+        "Name": "MealOrdering.Client.Pages.ButtonTest",
+        "AssemblyName": "MealOrdering.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "MealOrdering.Client.Pages.ButtonTest"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "MealOrdering.Client.Pages.ButtonTest",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 1146717299,
+        "Kind": "Components.Component",
+        "Name": "MealOrdering.Client.Pages.Users.UsersList",
+        "AssemblyName": "MealOrdering.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "UsersList"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "MealOrdering.Client.Pages.Users.UsersList"
+        }
+      },
+      {
+        "HashCode": 2121225390,
+        "Kind": "Components.Component",
+        "Name": "MealOrdering.Client.Pages.Users.UsersList",
+        "AssemblyName": "MealOrdering.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "MealOrdering.Client.Pages.Users.UsersList"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "MealOrdering.Client.Pages.Users.UsersList",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -1040793083,
+        "Kind": "Components.Component",
+        "Name": "MealOrdering.Client.Pages.FetchData",
+        "AssemblyName": "MealOrdering.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "FetchData"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "MealOrdering.Client.Pages.FetchData"
+        }
+      },
+      {
+        "HashCode": 1963618415,
+        "Kind": "Components.Component",
+        "Name": "MealOrdering.Client.Pages.FetchData",
+        "AssemblyName": "MealOrdering.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "MealOrdering.Client.Pages.FetchData"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "MealOrdering.Client.Pages.FetchData",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 1102940079,
+        "Kind": "Components.Component",
+        "Name": "MealOrdering.Client.Pages.Index",
+        "AssemblyName": "MealOrdering.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Index"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "MealOrdering.Client.Pages.Index"
+        }
+      },
+      {
+        "HashCode": 356780893,
+        "Kind": "Components.Component",
+        "Name": "MealOrdering.Client.Pages.Index",
+        "AssemblyName": "MealOrdering.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "MealOrdering.Client.Pages.Index"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "MealOrdering.Client.Pages.Index",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 826910058,
+        "Kind": "Components.Component",
+        "Name": "MealOrdering.Client.Pages.Counter",
+        "AssemblyName": "MealOrdering.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Counter"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "MealOrdering.Client.Pages.Counter"
+        }
+      },
+      {
+        "HashCode": 924181456,
+        "Kind": "Components.Component",
+        "Name": "MealOrdering.Client.Pages.Counter",
+        "AssemblyName": "MealOrdering.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "MealOrdering.Client.Pages.Counter"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "MealOrdering.Client.Pages.Counter",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -1312511795,
+        "Kind": "Components.Component",
+        "Name": "MealOrdering.Client.Pages.Login",
+        "AssemblyName": "MealOrdering.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Login"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "MealOrdering.Client.Pages.Login"
+        }
+      },
+      {
+        "HashCode": 2103169228,
+        "Kind": "Components.Component",
+        "Name": "MealOrdering.Client.Pages.Login",
+        "AssemblyName": "MealOrdering.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "MealOrdering.Client.Pages.Login"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "MealOrdering.Client.Pages.Login",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
         "HashCode": 1063408388,
         "Kind": "Components.Component",
         "Name": "MealOrdering.Client.CustomComponents.Buttons.BaseButton",
@@ -1027,6 +1225,102 @@
         }
       },
       {
+        "HashCode": -1845844383,
+        "Kind": "Components.Component",
+        "Name": "MealOrdering.Client.Shared.EmptyLayout",
+        "AssemblyName": "MealOrdering.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "EmptyLayout"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Body",
+            "TypeName": "Microsoft.AspNetCore.Components.RenderFragment",
+            "Documentation": "\n            <summary>\n            Gets the content to be rendered inside the layout.\n            </summary>\n        ",
+            "Metadata": {
+              "Common.PropertyName": "Body",
+              "Components.ChildContent": "True"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "MealOrdering.Client.Shared.EmptyLayout"
+        }
+      },
+      {
+        "HashCode": 451137581,
+        "Kind": "Components.Component",
+        "Name": "MealOrdering.Client.Shared.EmptyLayout",
+        "AssemblyName": "MealOrdering.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "MealOrdering.Client.Shared.EmptyLayout"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Body",
+            "TypeName": "Microsoft.AspNetCore.Components.RenderFragment",
+            "Documentation": "\n            <summary>\n            Gets the content to be rendered inside the layout.\n            </summary>\n        ",
+            "Metadata": {
+              "Common.PropertyName": "Body",
+              "Components.ChildContent": "True"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "MealOrdering.Client.Shared.EmptyLayout",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -28025652,
+        "Kind": "Components.ChildContent",
+        "Name": "MealOrdering.Client.Shared.EmptyLayout.Body",
+        "AssemblyName": "MealOrdering.Client",
+        "Documentation": "\n            <summary>\n            Gets the content to be rendered inside the layout.\n            </summary>\n        ",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Body",
+            "ParentTag": "EmptyLayout"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.None",
+          "Common.TypeName": "MealOrdering.Client.Shared.EmptyLayout.Body",
+          "Components.IsSpecialKind": "Components.ChildContent"
+        }
+      },
+      {
+        "HashCode": -108266396,
+        "Kind": "Components.ChildContent",
+        "Name": "MealOrdering.Client.Shared.EmptyLayout.Body",
+        "AssemblyName": "MealOrdering.Client",
+        "Documentation": "\n            <summary>\n            Gets the content to be rendered inside the layout.\n            </summary>\n        ",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Body",
+            "ParentTag": "MealOrdering.Client.Shared.EmptyLayout"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.None",
+          "Common.TypeName": "MealOrdering.Client.Shared.EmptyLayout.Body",
+          "Components.IsSpecialKind": "Components.ChildContent",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
         "HashCode": -1365923279,
         "Kind": "Components.Component",
         "Name": "MealOrdering.Client.Shared.MainLayout",
@@ -1123,171 +1417,6 @@
         }
       },
       {
-        "HashCode": -641728630,
-        "Kind": "Components.Component",
-        "Name": "MealOrdering.Client.Pages.ButtonTest",
-        "AssemblyName": "MealOrdering.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "ButtonTest"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "MealOrdering.Client.Pages.ButtonTest"
-        }
-      },
-      {
-        "HashCode": -224864052,
-        "Kind": "Components.Component",
-        "Name": "MealOrdering.Client.Pages.ButtonTest",
-        "AssemblyName": "MealOrdering.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "MealOrdering.Client.Pages.ButtonTest"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "MealOrdering.Client.Pages.ButtonTest",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": -1040793083,
-        "Kind": "Components.Component",
-        "Name": "MealOrdering.Client.Pages.FetchData",
-        "AssemblyName": "MealOrdering.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "FetchData"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "MealOrdering.Client.Pages.FetchData"
-        }
-      },
-      {
-        "HashCode": 1963618415,
-        "Kind": "Components.Component",
-        "Name": "MealOrdering.Client.Pages.FetchData",
-        "AssemblyName": "MealOrdering.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "MealOrdering.Client.Pages.FetchData"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "MealOrdering.Client.Pages.FetchData",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": 826910058,
-        "Kind": "Components.Component",
-        "Name": "MealOrdering.Client.Pages.Counter",
-        "AssemblyName": "MealOrdering.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Counter"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "MealOrdering.Client.Pages.Counter"
-        }
-      },
-      {
-        "HashCode": 924181456,
-        "Kind": "Components.Component",
-        "Name": "MealOrdering.Client.Pages.Counter",
-        "AssemblyName": "MealOrdering.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "MealOrdering.Client.Pages.Counter"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "MealOrdering.Client.Pages.Counter",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": 1102940079,
-        "Kind": "Components.Component",
-        "Name": "MealOrdering.Client.Pages.Index",
-        "AssemblyName": "MealOrdering.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Index"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "MealOrdering.Client.Pages.Index"
-        }
-      },
-      {
-        "HashCode": 356780893,
-        "Kind": "Components.Component",
-        "Name": "MealOrdering.Client.Pages.Index",
-        "AssemblyName": "MealOrdering.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "MealOrdering.Client.Pages.Index"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "MealOrdering.Client.Pages.Index",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": 1146717299,
-        "Kind": "Components.Component",
-        "Name": "MealOrdering.Client.Pages.Users.UsersList",
-        "AssemblyName": "MealOrdering.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "UsersList"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "MealOrdering.Client.Pages.Users.UsersList"
-        }
-      },
-      {
-        "HashCode": 2121225390,
-        "Kind": "Components.Component",
-        "Name": "MealOrdering.Client.Pages.Users.UsersList",
-        "AssemblyName": "MealOrdering.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "MealOrdering.Client.Pages.Users.UsersList"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "MealOrdering.Client.Pages.Users.UsersList",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
         "HashCode": -1229335562,
         "Kind": "Components.Component",
         "Name": "MealOrdering.Client.App",
@@ -1317,39 +1446,6 @@
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "MealOrdering.Client.App",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": -210603851,
-        "Kind": "Components.Component",
-        "Name": "__GeneratedComponent.AspNetCore_4c98e2ef040afc2de06527937d09c70fb1ad1310",
-        "AssemblyName": "MealOrdering.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "AspNetCore_4c98e2ef040afc2de06527937d09c70fb1ad1310"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "__GeneratedComponent.AspNetCore_4c98e2ef040afc2de06527937d09c70fb1ad1310"
-        }
-      },
-      {
-        "HashCode": -1601839386,
-        "Kind": "Components.Component",
-        "Name": "__GeneratedComponent.AspNetCore_4c98e2ef040afc2de06527937d09c70fb1ad1310",
-        "AssemblyName": "MealOrdering.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "__GeneratedComponent.AspNetCore_4c98e2ef040afc2de06527937d09c70fb1ad1310"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "__GeneratedComponent.AspNetCore_4c98e2ef040afc2de06527937d09c70fb1ad1310",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -15307,6 +15403,11 @@
       "FileKind": "component"
     },
     {
+      "FilePath": "d:\\dotnetProjects\\Learning_Heaven\\Blazor\\MealOrdering\\MealOrdering\\Client\\Pages\\Login.razor",
+      "TargetPath": "Pages\\Login.razor",
+      "FileKind": "component"
+    },
+    {
       "FilePath": "d:\\dotnetProjects\\Learning_Heaven\\Blazor\\MealOrdering\\MealOrdering\\Client\\Pages\\Users\\UsersList.razor",
       "TargetPath": "Pages\\Users\\UsersList.razor",
       "FileKind": "component"
@@ -15314,6 +15415,11 @@
     {
       "FilePath": "d:\\dotnetProjects\\Learning_Heaven\\Blazor\\MealOrdering\\MealOrdering\\Client\\Shared\\NavMenu.razor",
       "TargetPath": "Shared\\NavMenu.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "d:\\dotnetProjects\\Learning_Heaven\\Blazor\\MealOrdering\\MealOrdering\\Client\\Shared\\EmptyLayout.razor",
+      "TargetPath": "Shared\\EmptyLayout.razor",
       "FileKind": "component"
     },
     {
