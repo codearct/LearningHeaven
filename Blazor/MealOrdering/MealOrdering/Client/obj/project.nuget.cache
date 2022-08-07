@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "91sRV68Gz3EgzqIbqai5Emk/EnfHuOwlDsI7n0pAJs7xnV40RTqLfL1MrQjTjML4kx16ONq95plVztK5kYzAlw==",
+  "dgSpecHash": "au3BDjPpXGoIRDJDBmUgnV9tqgrfnScPD3XF4iqpp4E/C5tuJQ6SDBIxQI30i1BC3C0VQz2ZFjQ4sI2EOX61mg==",
   "success": true,
   "projectFilePath": "D:\\dotnetProjects\\Learning_Heaven\\Blazor\\MealOrdering\\MealOrdering\\Client\\MealOrdering.Client.csproj",
   "expectedPackageFiles": [
@@ -35,7 +35,7 @@
     "C:\\Users\\Akif\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
     "C:\\Users\\Akif\\.nuget\\packages\\system.text.encodings.web\\6.0.0\\system.text.encodings.web.6.0.0.nupkg.sha512",
     "C:\\Users\\Akif\\.nuget\\packages\\system.text.json\\6.0.0\\system.text.json.6.0.0.nupkg.sha512",
-    "C:\\Users\\Akif\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\6.0.3\\microsoft.netcore.app.runtime.mono.browser-wasm.6.0.3.nupkg.sha512"
+    "C:\\Users\\Akif\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\6.0.7\\microsoft.netcore.app.runtime.mono.browser-wasm.6.0.7.nupkg.sha512"
   ],
   "logs": []
 }
