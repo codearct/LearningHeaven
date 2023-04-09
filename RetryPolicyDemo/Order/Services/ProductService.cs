@@ -1,4 +1,6 @@
 ﻿using Order.Repositories;
+using Polly;
+using Polly.Retry;
 
 namespace Order.Services
 {
@@ -9,14 +11,16 @@ namespace Order.Services
     public class ProductService : IProductService
     {
         private readonly IProductRepository _productRepository;
-        public ProductService(IProductRepository productRepository)
+        private readonly ISyncPolicy _faultPolicy;
+        public ProductService(IProductRepository productRepository, ISyncPolicy faultPolicy)
         {
             _productRepository = productRepository;
+            _faultPolicy = faultPolicy;
         }
 
         public string GetProductById(int id)
         {
-            return _productRepository.GetProductById(id);
+            return _faultPolicy.Execute<string>(() => _productRepository.GetProductById(id));
         }
     }
 }
