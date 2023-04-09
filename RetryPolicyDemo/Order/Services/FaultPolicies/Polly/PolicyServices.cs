@@ -1,11 +1,11 @@
 ﻿using Polly;
 using Polly.Retry;
 
-namespace Order.Services.FaultPolicies
+namespace Order.Services.FaultPolicies.Polly
 {
     public static class PolicyServices
     {
-        public static void AddCustomPolicyService(this IServiceCollection services, string policySectionName,IConfiguration configuration)
+        public static void AddPolicyService(this IServiceCollection services, string policySectionName, IConfiguration configuration)
         {
             var policyConfig = new PolicyConfig();
             configuration.Bind(policySectionName, policyConfig);
@@ -14,9 +14,9 @@ namespace Order.Services.FaultPolicies
 
             services.AddRetryPolicyHandler(retryPolicyConfig);
         }
-        public static void AddRetryPolicyHandler(this IServiceCollection services,IRetryPolicyConfig config)
+        public static void AddRetryPolicyHandler(this IServiceCollection services, IRetryPolicyConfig config)
         {
-            services.AddSingleton<ISyncPolicy>(RetryPolicies.GetCustomRetryPolicy(config));
+            services.AddSingleton<ISyncPolicy>(RetryPolicies.GetRetryPolicy(config));
         }
     }
 

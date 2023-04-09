@@ -1,4 +1,5 @@
 ﻿using Order.Repositories;
+using Order.Services.FaultPolicies;
 using Polly;
 using Polly.Retry;
 
@@ -11,8 +12,8 @@ namespace Order.Services
     public class ProductService : IProductService
     {
         private readonly IProductRepository _productRepository;
-        private readonly ISyncPolicy _faultPolicy;
-        public ProductService(IProductRepository productRepository, ISyncPolicy faultPolicy)
+        private readonly IFaultPolicy _faultPolicy;
+        public ProductService(IProductRepository productRepository, IFaultPolicy faultPolicy)
         {
             _productRepository = productRepository;
             _faultPolicy = faultPolicy;

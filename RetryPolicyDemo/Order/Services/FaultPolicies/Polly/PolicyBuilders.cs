@@ -1,6 +1,6 @@
 ﻿using Polly;
 
-namespace Order.Services.FaultPolicies
+namespace Order.Services.FaultPolicies.Polly
 {
     public static class PolicyBuilders
     {

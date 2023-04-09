@@ -1,6 +1,7 @@
 using Order.Repositories;
 using Order.Services;
 using Order.Services.FaultPolicies;
+using Order.Services.FaultPolicies.Polly;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -12,7 +13,8 @@ var config = builder.Configuration ;
 
 builder.Services.AddScoped<IProductRepository,ProductRepository>();
 builder.Services.AddScoped<IProductService,ProductService>();
-builder.Services.AddCustomPolicyService("PolicyConfig",config);
+builder.Services.AddSingleton<IFaultPolicy,FaultPolicy>();
+builder.Services.AddPolicyService("PolicyConfig",config);
 
 var app = builder.Build();
 

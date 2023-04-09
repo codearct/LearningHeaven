@@ -1,11 +1,11 @@
 ﻿using Polly;
 using Polly.Retry;
 
-namespace Order.Services.FaultPolicies
+namespace Order.Services.FaultPolicies.Polly
 {
     public static class RetryPolicies
     {
-        public static RetryPolicy GetCustomRetryPolicy(IRetryPolicyConfig config)
+        public static RetryPolicy GetRetryPolicy(IRetryPolicyConfig config)
         {
             return PolicyBuilders.GetCustomBuilder()
                     .WaitAndRetry(config.RetryCount,
