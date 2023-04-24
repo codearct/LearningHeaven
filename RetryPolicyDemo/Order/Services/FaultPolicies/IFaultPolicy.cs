@@ -2,6 +2,6 @@
 {
     public interface IFaultPolicy
     {
-        TResult Execute<TResult>(Func<TResult> action);
+        TResult Retry<TResult>(Func<TResult> action);
     }
 }

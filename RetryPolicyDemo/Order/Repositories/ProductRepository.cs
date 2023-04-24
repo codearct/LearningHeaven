@@ -22,6 +22,7 @@
         {
             Console.WriteLine("We are in Product Repository");
             ThrowRandomException();
+            Console.WriteLine("Our Poduct is {0}", _productList![id]);
             return _productList![id];
         }
 

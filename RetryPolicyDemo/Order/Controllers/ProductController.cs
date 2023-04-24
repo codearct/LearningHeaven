@@ -21,5 +21,13 @@ namespace Order.Controllers
             if(result == null) return NotFound("Product was not found");
             return Ok(result);
         }
+
+        [HttpGet("nowrap/{id}")]
+        public ActionResult<string> GetProductByIdWithoutWrap(int id)
+        {
+            var result = _productService.GetProductByIdWithoutWrap(id);
+            if (result == null) return NotFound("Product was not found");
+            return Ok(result);
+        }
     }
 }

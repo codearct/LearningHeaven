@@ -11,7 +11,7 @@ namespace Order.Services.FaultPolicies.Polly
             _policy = policy;
         }
 
-        public TResult Execute<TResult>(Func<TResult> action)
+        public TResult Retry<TResult>(Func<TResult> action)
         {
             return _policy.Execute(action);
         }
