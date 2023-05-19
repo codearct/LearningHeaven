@@ -15,6 +15,17 @@ namespace Order.Services.FaultPolicies.Polly
                                       OnCustomRetry(result, timeSpan, retryCount);
                                   });
         }
+
+        public static RetryPolicy GetHttpRequestRetryPolicy(IRetryPolicyConfig config)
+        {
+            return PolicyBuilders.GetHttpFailureBuilder()
+                    .WaitAndRetry(config.RetryCount,
+                                  ComputeDuration,
+                                  (result, timeSpan, retryCount, context) =>
+                                  {
+                                      OnCustomRetry(result, timeSpan, retryCount);
+                                  });
+        }
         private static void OnCustomRetry(Exception result, TimeSpan timeSpan, int retryCount)
         {
             if (result != null)

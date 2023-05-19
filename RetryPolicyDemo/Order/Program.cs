@@ -11,9 +11,10 @@ builder.Services.AddEndpointsApiExplorer();
 var logger = new LoggerFactory();
 var config = builder.Configuration ;
 
+builder.Services.AddHttpClient();
 builder.Services.AddScoped<IProductRepository,ProductRepository>();
 builder.Services.AddScoped<IProductService,ProductService>();
-builder.Services.AddSingleton<IFaultPolicy,FaultPolicy>();
+builder.Services.AddSingleton<IFaultPolicy, FaultPolicy>();
 builder.Services.AddPolicyService("PolicyConfig",config);
 
 var app = builder.Build();

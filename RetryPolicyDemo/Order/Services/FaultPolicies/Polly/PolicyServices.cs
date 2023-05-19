@@ -1,4 +1,7 @@
-﻿using Polly;
+﻿using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Win32;
+using Polly;
+using Polly.Registry;
 using Polly.Retry;
 
 namespace Order.Services.FaultPolicies.Polly
@@ -13,11 +16,15 @@ namespace Order.Services.FaultPolicies.Polly
             var retryPolicyConfig = (IRetryPolicyConfig)policyConfig;
 
             services.AddRetryPolicyHandler(retryPolicyConfig);
+            services.AddHttpFailureRetryPolicyHandler(retryPolicyConfig);
         }
         public static void AddRetryPolicyHandler(this IServiceCollection services, IRetryPolicyConfig config)
         {
             services.AddSingleton<ISyncPolicy>(RetryPolicies.GetRetryPolicy(config));
         }
+        public static void AddHttpFailureRetryPolicyHandler(this IServiceCollection services, IRetryPolicyConfig config)
+        {
+            services.AddSingleton<ISyncPolicy>(RetryPolicies.GetHttpRequestRetryPolicy(config));
+        }
     }
-
 }
