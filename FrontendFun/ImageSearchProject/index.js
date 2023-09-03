@@ -16,32 +16,35 @@ async function searchImages() {
 
   if (page === 1) {
     searchResults.innerHTML = "";
+    showMoreButton.style.display = "none";
   }
   const results = data.results;
 
-  results.map((result) => {
-    const imageWrapper = document.createElement("div");
-    imageWrapper.classList.add("search-result-card");
+  if (results.length > 0) {
+    results.map((result) => {
+      const imageWrapper = document.createElement("div");
+      imageWrapper.classList.add("search-result-card");
 
-    const image = document.createElement("img");
-    image.src = result.urls.small;
-    image.alt = result.alt_description;
+      const image = document.createElement("img");
+      image.src = result.urls.small;
+      image.alt = result.alt_description;
 
-    const imageLink = document.createElement("a");
-    imageLink.href = result.links.html;
-    imageLink.target = "_blank";
-    imageLink.textContent = result.alt_description;
+      const imageLink = document.createElement("a");
+      imageLink.href = result.links.html;
+      imageLink.target = "_blank";
+      imageLink.textContent = result.alt_description;
 
-    imageWrapper.appendChild(image);
-    imageWrapper.appendChild(imageLink);
+      imageWrapper.appendChild(image);
+      imageWrapper.appendChild(imageLink);
 
-    searchResults.appendChild(imageWrapper);
-  });
+      searchResults.appendChild(imageWrapper);
+    });
 
-  page++;
+    page++;
 
-  if (page > 1) {
-    showMoreButton.style.display = "block";
+    if (page > 1) {
+      showMoreButton.style.display = "block";
+    }
   }
 }
 
