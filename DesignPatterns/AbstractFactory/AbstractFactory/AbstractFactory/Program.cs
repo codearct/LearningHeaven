@@ -1,4 +1,12 @@
-﻿using AbstractFactory;
+﻿
+using AbstractFactory;
+using AbstractFactory.Abstractions.Factory;
+using AbstractFactory.Concrete.Factory;
+using AbstractFactory.Concrete.Product.RestaurantPass;
 
-IFactory factory = new ConcreteFactory1();
-factory.CreateProductA();
+IOrderFactory rpOrder = new RestaurantPassOrderFactory();
+IOrderFactory bpOrder = new BusinessPassOrderFactory();
+
+OrderService orderService = new OrderService(rpOrder);
+Console.WriteLine(orderService.GetPhysicalCardOrder());
+
