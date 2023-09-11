@@ -16,15 +16,15 @@ namespace AbstractFactory
         }
         public string GetMobileCardOrder()
         {
-            return _mobileCardOrder.GetMobileCardOrder();
+            return _mobileCardOrder.GetOrder();
         }
         public string GetMobileChqOrder()
         {
-            return _mobileChqOrder.GetMobileChqOrder();
+            return _mobileChqOrder.GetOrder();
         }
         public string GetPhysicalCardOrder()
         {
-            return _physicalCardOrder.GetPhysicalCardOrder();
+            return _physicalCardOrder.GetOrder();
         }
     }
 }

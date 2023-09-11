@@ -2,6 +2,6 @@
 {
     public interface IMobileChqOrder
     {
-        string GetMobileChqOrder();
+        string GetOrder();
     }
 }

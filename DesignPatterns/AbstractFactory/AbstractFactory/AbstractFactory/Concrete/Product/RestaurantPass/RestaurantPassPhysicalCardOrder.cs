@@ -4,7 +4,7 @@ namespace AbstractFactory.Concrete.Product.RestaurantPass
 {
     public class RestaurantPassPhysicalCardOrder : IPhysicalCardOrder
     {
-        public string GetPhysicalCardOrder()
+        public string GetOrder()
         {
             return "Created -RestaurantPass- Order With -Physical Cards-.";
         }

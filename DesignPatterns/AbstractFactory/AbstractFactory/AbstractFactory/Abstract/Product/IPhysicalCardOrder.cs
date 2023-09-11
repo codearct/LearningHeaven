@@ -2,6 +2,6 @@
 {
     public interface IPhysicalCardOrder
     {
-        string GetPhysicalCardOrder();
+        string GetOrder();
     }
 }

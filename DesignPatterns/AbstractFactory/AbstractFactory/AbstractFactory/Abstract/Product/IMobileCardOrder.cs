@@ -2,6 +2,6 @@
 {
     public interface IMobileCardOrder
     {
-        string GetMobileCardOrder();
+        string GetOrder();
     }
 }

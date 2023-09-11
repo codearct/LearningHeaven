@@ -4,7 +4,7 @@ namespace AbstractFactory.Concrete.Product.BusinessPass
 {
     internal class BusinessPassPhysicalCardOrder : IPhysicalCardOrder
     {
-        public string GetPhysicalCardOrder()
+        public string GetOrder()
         {
             return "Created -BusinessPass- Order With -Physical Cards-.";
         }
